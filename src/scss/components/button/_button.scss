@@ -1,4 +1,19 @@
 @use "../../global" as *;
 @use "../../partials" as *;
 
-
+.ll-btn-primary {
+  background-color: $primary;
+  padding: 13px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: black;
+  border-radius: 14px;
+  outline: 0;
+  border: 1px solid $primary;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: white;
+  }
+}
