@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HTML Project Setup and Running Instructions
 
 ## Getting Started
 
-First, run the development server:
+To get started, ensure you have the following:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. A web browser installed on your system (e.g., Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
+2. A code editor for editing the HTML file (e.g., VS Code, Sublime Text, etc.).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Steps to Run Your HTML File:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Save your HTML file with a `.html` extension (e.g., `index.html`).
+2. Open the location of your HTML file on your computer.
+3. Double-click the file to open it in your default web browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Alternatively:
+
+- Right-click the file.
+- Select "Open With" and choose the web browser of your choice.
+
+### Live Server Option (Optional for Developers)
+
+For a better development experience with live updates:
+
+1. Install a code editor like [Visual Studio Code](https://code.visualstudio.com/).
+2. Install the "Live Server" extension from the VS Code marketplace.
+3. Open your project folder in VS Code.
+4. Right-click on your HTML file and select **"Open with Live Server"**.
+5. Your default browser will open, showing the content of your HTML file. The page will auto-refresh whenever you save changes.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about HTML, consider the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Comprehensive HTML documentation.
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/) - Beginner-friendly HTML tutorials.
+- [HTML.com](https://html.com/) - A great resource for learning and exploring HTML concepts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding!

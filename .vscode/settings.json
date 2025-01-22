@@ -9,7 +9,7 @@
       // "savePath": "/public/assets/css"
       // "savePath": "/app/css"
       // "savePath": "/css"
-      "savePath": "/src/assets/css"
+      "savePath": "/assets/css"
       // "savePath": "src/css"
     }
   ],
