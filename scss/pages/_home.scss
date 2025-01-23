@@ -78,8 +78,10 @@
 }
 
 .about-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 50px 0px;
+  @include breakpoint(mobile768) {
+    padding: 100px 0px;
+  }
   text-align: center;
   .about-img {
     border-style: solid;
@@ -92,19 +94,75 @@
     font-weight: bold;
     margin-bottom: 20px;
     color: $heading-color;
-    @include breakpoint(mobile576){
+    @include breakpoint(mobile576) {
       font-size: 36px;
     }
   }
 
   p {
-    font-size: 20px;
+    // font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
     color: $para-color;
   }
 
-  @include breakpoint(mobile576){
+  @include breakpoint(mobile576) {
     text-align: start;
+  }
+}
+
+.services-section {
+  background-color: $primary-10;
+  padding: 50px 0px;
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: $heading-color;
+    @include breakpoint(mobile576) {
+      font-size: 36px;
+    }
+  }
+  @include breakpoint(mobile768) {
+    padding: 100px 0px;
+  }
+  .service-item {
+    padding: 20px 0px;
+    transition: transform 0.3s ease;
+    
+    .icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      background-color: #1f1f3e; // Dark navy
+      color: $primary;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    &:hover {
+      transform: scale(1.05); // Hover effect
+    }
+  }
+  .right-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    @include breakpoint(desktop1024) {
+      opacity: 1;
+    }
+  }
+  .read-more{
+    color: $primary;
+    font-weight: 500;
+    &:hover {
+      color: darken($primary, 30%)
+    }
   }
 }
