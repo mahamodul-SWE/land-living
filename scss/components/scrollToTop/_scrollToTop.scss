@@ -1,0 +1,28 @@
+@use "../../global" as *;
+@use "../../partials" as *;
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: $primary;
+  color: white;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  // font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+ 
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}
+.show{
+  opacity: 1;
+}
