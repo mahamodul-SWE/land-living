@@ -1,87 +1,11 @@
 @use "../../global" as *;
 @use "../../partials" as *;
 
-// .footer {
-//   background-color: #f2f2f2;
-//   padding-top: 3rem;
-//   svg {
-//     color: #03be64;
-//     transition: 0.3s;
-//     &:hover {
-//       fillOpacity: 0.7;
-//     }
-//   }
-//   .footer-body {
-//     // display: grid;
-//     // grid-template-columns: repeat(2, 1fr);
-//     @include flex-center;
-//     flex-direction: column;
-//     gap: 20px;
-//     @include breakpoint(tab992) {
-//       @include flex-between;
-//       flex-direction: row;
-//     }
-//     padding-bottom: 30px;
-//     .logo {
-//       width: 150px;
-//       margin-bottom: 20px;
-//     }
-//     .resourse-wrapper {
-//       display: flex;
-//       justify-content: flex-end;
-//       gap: 100px;
-//       @include breakpoint(tab992) {
-//         width: 30%;
-//       }
-//       .nav-link {
-//         color: #263238;
-//         padding-left: 0;
-//         &:hover {
-//           text-decoration: underline;
-//         }
-//       }
-//     }
-//     .footer-address {
-//       ul {
-//         li {
-//           display: flex;
-//           gap: 10px;
-//           padding: 6px 0px;
-//           color: black;
-//           a {
-//             color: rgba(black, 0.7);
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .footer-bottom {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 18px 0px;
-//     border-top: 1px solid rgb(209, 209, 209);
-//     gap: 10px;
-//     @include breakpoint(mobile576) {
-//       @include flex-between;
-//       flex-direction: row;
-//     }
-//     .icon-wrapper {
-//       display: flex;
-//       max-width: 12rem;
-//       gap: 16px;
-//     }
-//   }
-// }
-
-
 footer {
   background-color: #1a1a1a;
   padding: 70px 0 60px;
   padding-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
   .logo {
     width: 30%;
     color: white;
@@ -95,26 +19,12 @@ footer {
       @include font($primaryFont, 16, semibold, normal, normal);
     }
   }
-  .section-title {
+  .footer-title {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: size(30);
     position: relative;
     font-size: 1.4em;
-    &::after {
-      content: "";
-      position: absolute;
-      width: 60px;
-      height: 3px;
-      background-color: $primary;
-      bottom: size(-10);
-      left: 50%;
-      transform: translateX(-50%);
-      @include breakpoint(tab992) {
-        transform: translate(0);
-        left: 0;
-      }
-    }
   }
   .footer-left {
     @include flex-column;
@@ -136,6 +46,9 @@ footer {
     @include flex;
     flex-direction: column;
     align-items: center;
+    a {
+      color: inherit;
+    }
     @include breakpoint(tab992) {
       align-items: flex-start;
     }
@@ -146,6 +59,15 @@ footer {
     align-items: center;
     @include breakpoint(tab992) {
       align-items: flex-start;
+    }
+    .btn-outline-secondary {
+      background-color: transparent;
+      border: 1px solid $primary;
+      color: $primary;
+      &:hover {
+        background-color: $primary;
+        color: white;
+      }
     }
   }
   .links {
@@ -178,12 +100,13 @@ footer {
     }
 
     li {
-      @include flex;
+      @include flex-center-vert;
       gap: size(10);
-      color: #979797;
-      .h1 {
-        font-size: 14px;
-        font-weight: 700;
+      .hl {
+        i{
+          color: $primary !important;
+          font-size: 18px;
+        }
       }
       .text {
         font-size: 14px;
@@ -195,7 +118,7 @@ footer {
   .socials {
     @include flex;
     gap: 5px;
-    margin-top: 50px;
+    // margin-top: 50px;
     a {
       border-radius: 50%;
       border: 1px solid #333;
@@ -222,10 +145,10 @@ footer {
     flex-direction: column;
     gap: size(20);
     text-align: center;
-    @include breakpoint(mobile576) {
+    @include breakpoint(tab992) {
       flex-direction: row;
     }
-    @include breakpoint(tab992){
+    @include breakpoint(tab992) {
       text-align: left;
     }
     p {
