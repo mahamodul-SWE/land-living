@@ -1,6 +1,7 @@
 @use "../global" as *;
 @use "../partials" as *;
 @use "../components/button";
+@use "../animations";
 
 .hero-home {
   height: 80vh;
@@ -117,14 +118,7 @@
   position: relative;
   height: fit-content;
   overflow: hidden;
-  h2 {
-    font-size: 26px;
-    font-weight: bold;
-    color: $heading-color;
-    @include breakpoint(mobile576) {
-      font-size: 36px;
-    }
-  }
+  
   @include breakpoint(mobile768) {
     padding: 100px 0px;
   }
@@ -164,5 +158,32 @@
     &:hover {
       color: darken($primary, 30%)
     }
+  }
+}
+
+// shared styles
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: $heading-color;
+  position: relative;
+  display: inline-block;
+  &::after{
+    content: "";
+    position: absolute;
+    top: 70%;
+    right: -65px;
+    display: block;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 4px;
+    background-color: $primary;
+    border-radius: 3px;
+    // opacity: 0;
+    transition: opacity 0.3s ease;
+    @extend .blinking;
+  }
+  @include breakpoint(mobile576) {
+    font-size: 36px;
   }
 }
