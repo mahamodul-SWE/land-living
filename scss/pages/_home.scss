@@ -118,14 +118,14 @@
   position: relative;
   height: fit-content;
   overflow: hidden;
-  
+
   @include breakpoint(mobile768) {
     padding: 100px 0px;
   }
   .service-item {
     padding: 20px 0px;
     transition: transform 0.3s ease;
-    
+
     .icon {
       width: 80px;
       height: 80px;
@@ -138,7 +138,7 @@
       justify-content: center;
       border-radius: 50%;
     }
-    h5{
+    h5 {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
@@ -147,7 +147,7 @@
       transform: scale(1.05); // Hover effect
     }
   }
-  .right-img{
+  .right-img {
     position: absolute;
     right: 0;
     top: 0;
@@ -156,11 +156,45 @@
       opacity: 1;
     }
   }
-  .read-more{
+  .read-more {
     color: $primary;
     font-weight: 500;
     &:hover {
-      color: darken($primary, 30%)
+      color: darken($primary, 30%);
+    }
+  }
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px;
+  background-color: #fff;
+  flex-wrap: wrap; // Makes it responsive
+  height: 250px;
+  .feature-item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    .icon {
+      i {
+        font-size: 30px;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      font-weight: bold;
+      color: #000;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: #000;
     }
   }
 }
@@ -172,7 +206,7 @@
   color: $heading-color;
   position: relative;
   display: inline-block;
-  &::after{
+  &::after {
     content: "";
     position: absolute;
     top: 70%;
@@ -189,5 +223,49 @@
   }
   @include breakpoint(mobile576) {
     font-size: 36px;
+  }
+}
+
+.difference_sec {
+  padding-top: size(50);
+  padding-bottom: size(150);
+  background-color: $primary-10;
+  @include breakpoint(tab992) {
+    padding-top: size(100);
+    padding-bottom: size(190);
+  }
+  .section-top > .title {
+    @extend .title;
+    font-size: 40px;
+  }
+  .difference_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    figure {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .difference {
+      background-color: $primary;
+      width: 350px;
+      aspect-ratio: 1;
+      text-align: center;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      padding: 23px;
+
+      .title {
+        letter-spacing: 0.288px;
+        color: $primary;
+      }
+    }
   }
 }
