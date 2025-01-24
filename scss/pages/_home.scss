@@ -167,18 +167,25 @@
 
 .features-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 40px;
-  padding: 20px;
+  padding: 76px 0px;
   background-color: #fff;
-  flex-wrap: wrap; // Makes it responsive
-  height: 250px;
+  
+  @include breakpoint(mobile576) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
   .feature-item {
     text-align: center;
     display: flex;
     align-items: center;
     gap: 5px;
     width: fit-content;
+    // flex: 1;
     .icon {
       i {
         font-size: 30px;
@@ -266,6 +273,63 @@
         letter-spacing: 0.288px;
         color: $primary;
       }
+    }
+  }
+}
+
+.additional-sections{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 50px;
+  @include breakpoint(mobile576) {
+    padding-bottom: 100px;
+  }
+  flex-wrap: wrap;
+}
+
+.attract-sec{
+  padding-top: size(50);
+  padding-bottom: size(50);
+  background-image: url("../../assets/images/secbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  @include breakpoint(tab992) {
+    padding-top: size(100);
+    padding-bottom: size(100);
+  }
+  h2 {
+    font-size: 36px;
+    color: $white-01;
+  }
+  p {
+    font-size: 18px;
+    color: $white-02;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    @include breakpoint(tab992) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .content{
+      max-width: 600px;
+    }
+  }
+  .ll-btn-primary{
+    background-color: transparent;
+    // border-radius: 0;
+    color: $white-01;
+    border-width: 2px;
+    &:hover{
+      background-color: $primary;
     }
   }
 }
