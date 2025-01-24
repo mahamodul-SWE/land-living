@@ -173,7 +173,7 @@
   gap: 40px;
   padding: 76px 0px;
   background-color: #fff;
-  
+
   @include breakpoint(mobile576) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -277,7 +277,7 @@
   }
 }
 
-.additional-sections{
+.additional-sections {
   display: flex;
   justify-content: space-between;
   gap: 40px;
@@ -288,7 +288,7 @@
   flex-wrap: wrap;
 }
 
-.attract-sec{
+.attract-sec {
   padding-top: size(50);
   padding-bottom: size(50);
   background-image: url("../../assets/images/secbg.png");
@@ -309,7 +309,7 @@
     font-size: 18px;
     color: $white-02;
   }
-  .wrapper{
+  .wrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -319,17 +319,153 @@
       flex-direction: row;
       justify-content: space-between;
     }
-    .content{
+    .content {
       max-width: 600px;
     }
   }
-  .ll-btn-primary{
+  .ll-btn-primary {
     background-color: transparent;
     // border-radius: 0;
     color: $white-01;
     border-width: 2px;
-    &:hover{
+    &:hover {
       background-color: $primary;
+    }
+  }
+}
+
+.testimonial {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.86) 0%,
+      rgba(255, 255, 255, 0.86) 100%
+    ),
+    url("../../assets/images/secbg.png") lightgray 50% / cover no-repeat;
+  background-size: cover;
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: size(50);
+  padding-right: size(50);
+  position: relative;
+  @include breakpoint(tab992) {
+    padding-left: size(70);
+  }
+
+  .testimonial-wrappers {
+    display: flex;
+    flex-direction: column;
+    gap: size(60);
+    align-items: flex-start;
+
+    .single-testimonial {
+      background: #fff;
+      padding: size(28) size(36);
+      @include radius(5);
+      box-shadow: 0px 33px 251px 0px rgba(0, 0, 0, 0.09),
+        0px 15.257px 116.045px 0px rgba(0, 0, 0, 0.07),
+        0px 8.73px 66.398px 0px rgba(0, 0, 0, 0.06),
+        0px 5.299px 40.303px 0px rgba(0, 0, 0, 0.05),
+        0px 3.193px 24.284px 0px rgba(0, 0, 0, 0.04),
+        0px 1.778px 13.523px 0px rgba(0, 0, 0, 0.03),
+        0px 0.765px 5.816px 0px rgba(0, 0, 0, 0.02);
+      position: relative;
+      @include flex-column;
+      gap: size(10);
+      padding-top: 50px;
+      @include breakpoint(tab992) {
+        max-width: size(326);
+      }
+
+      .testimonial-thumb {
+        @include square(63);
+        display: block;
+        @include circle;
+        position: absolute;
+        top: (-30px);
+        background-color: #fff;
+        padding: 2px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04);
+        border: 1px solid gray;
+      }
+      .quote {
+        @include square(50);
+        background-color: #274e75;
+        @include circle;
+        position: absolute;
+        left: -30px;
+        top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+      .des {
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 174%; /* 24.36px */
+        letter-spacing: 0.28px;
+        text-transform: capitalize;
+      }
+      .name {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 174%; /* 31.32px */
+        letter-spacing: 0.36px;
+        text-transform: capitalize;
+      }
+      .testimonial-text {
+        color: #595959;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 174%; /* 22.62px */
+        letter-spacing: 0.26px;
+        text-transform: capitalize;
+      }
+    }
+    .single-testimonial:last-child {
+      @include breakpoint(tab992) {
+        position: absolute;
+        top: 54%;
+        left: 31rem;
+        transform: translateY(-50%);
+
+        @include breakpoint(desktop1400) {
+          left: 33rem;
+        }
+        @include breakpoint(desktop1600) {
+          left: 40rem;
+        }
+        @include breakpoint(desktop1800) {
+          left: 47rem;
+        }
+      }
+    }
+  }
+
+  .right-wrapper {
+    @include flex-column;
+    gap: size(20);
+    margin-bottom: size(80);
+    @include breakpoint(tab992) {
+      margin-bottom: size(0);
+    }
+    .section-title{
+      width: fit-content;
+    }
+    p {
+      color: #595959;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 174%; /* 31.32px */
+      letter-spacing: 0.36px;
+      text-transform: capitalize;
     }
   }
 }
