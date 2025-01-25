@@ -80,6 +80,7 @@
 
 .about-section {
   padding: 50px 0px;
+  background-color: $bg-light-gray;
   @include breakpoint(mobile768) {
     padding: 100px 0px;
   }
@@ -106,7 +107,12 @@
     margin-bottom: 30px;
     color: $para-color;
   }
-
+  .commitment {
+    background-color: white;
+    border-left: 5px solid $primary;
+    border-radius: 8px;
+    padding: 10px;
+  }
   @include breakpoint(mobile576) {
     text-align: start;
   }
@@ -241,7 +247,7 @@
     padding-top: size(100);
     padding-bottom: size(190);
   }
-  .section-top{
+  .section-top {
     text-align: center;
   }
   .difference_container {
@@ -256,7 +262,7 @@
       justify-content: center;
       margin-bottom: 10px;
     }
-    
+
     .difference {
       background-color: $primary;
       width: 350px;
@@ -269,16 +275,18 @@
       gap: 14px;
       padding: 23px;
       transition: transform 0.3s ease;
-      &:hover{
+      &:hover {
         transform: scale(1.05);
       }
       .title {
         letter-spacing: 0.288px;
-        
       }
-      .count{
+      .count {
         font-size: 40px;
         font-weight: bold;
+      }
+      .des {
+        color: rgba(0, 0, 0, 0.5);
       }
     }
   }
@@ -391,10 +399,10 @@
   .section-bottom {
     display: flex;
     justify-content: space-between;
-    .slider-pagination{
+    .slider-pagination {
       display: flex;
       align-items: center;
-      .slider-pagination-item{
+      .slider-pagination-item {
         margin-right: 10px;
         cursor: pointer;
         display: inline-block;
