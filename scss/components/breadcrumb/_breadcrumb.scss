@@ -1,0 +1,28 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.breadcrumb-wrapper{
+  padding: 100px 0px;
+  background-image: url("../../../assets/images/testimonial-banner-min.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(#000000, .5);
+  .breadcrumb-title{
+    color: $white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 56px;
+    margin-top: 40px;
+  }
+  .breadcrumb{
+    justify-content: center;
+    .breadcrumb-item, a {
+      color: $white-01 !important;
+    }
+    .breadcrumb-item::before{
+      color: $white-01 !important;
+    }
+  }
+}
