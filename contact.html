@@ -68,7 +68,7 @@
     <div class="breadcrumb-wrapper">
       <div class="container">
         <h1 class="breadcrumb-title">Contact Us</h1>
-        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#">Home</a>
@@ -81,7 +81,85 @@
       </div>
     </div>
 
-    <!-- Contact form -->
+    <!-- Contact form and information -->
+    <main>
+      <div class="container contact-wrapper">
+        <div class="row gap-2 flex-column-reverse flex-lg-row flex-lg-nowrap">
+          <div class="col-lg-6">
+            <form class="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="ll-btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <h3 class="section-title">Get in touch</h3>
+              <p class="contact-info-text">Lorem ipsum dolor sit amet,</p>
+              <div class="contact-list">
+                <div class="contact-item">
+                  <span class="icon">
+                    <i class="bi bi-geo-alt"></i>
+                  </span>
+                  <h4 class="title">Our main office</h4>
+                  <p class="text text-start">
+                    Plaza X , XY Floor, XYZ Street, XYZ
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <span class="icon">
+                    <i class="bi bi-envelope-at"></i>
+                  </span>
+                  <h4 class="title">subject address</h4>
+                  <span class="text text-start">
+                    <a href="mailto:lorem@gmail.com">yourname@email.com </a>
+                  </span>
+                </div>
+                <div class="contact-item">
+                  <span class="icon">
+                    <i class="bi bi-telephone-outbound"></i>
+                  </span>
+                  <h4 class="title">Call us</h4>
+                  <span class="text text-start">
+                    <a href="mailto:lorem@gmail.com">01xxxxxxxx </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- map -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.97303532383!2d90.33728800877181!3d23.78081863542279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1737796722221!5m2!1sen!2sbd"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
 
     <!-- scroll to top -->
     <button onclick="scrollToTop()" class="scroll-to-top">

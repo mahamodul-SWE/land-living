@@ -1,0 +1,53 @@
+@use "../global" as *;
+@use "../partials" as *;
+
+.contact-wrapper{
+  padding: 56px 0px;
+  @include breakpoint(desktop1200) {
+    padding: 100px 0px;
+  }
+  .contact-form{
+    background-color: $primary;
+    padding: 60px 40px;
+    border-radius: 8px;
+    .ll-btn-primary{
+      background-color: $white;
+      &:hover{
+        background-color: $white-03;
+      }
+    }
+  }
+.contact-info-text{
+  margin-bottom: 20px;
+}
+  .contact-item{
+    margin-bottom: 10px;
+    padding: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    background-color: #222838;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon{
+      font-size: 50px;
+      color: $primary;
+    }
+    .title{
+      color: $white-01;
+      font-size: 26px;
+      margin-bottom: 10px;
+
+    }
+    p{
+      color: $white-02;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    a{
+      color: $white-01;
+    }
+  }
+}
