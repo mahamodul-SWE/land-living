@@ -2,17 +2,19 @@ import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import ScrollToTop from "@/components/shared/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Kanit, Playball } from "next/font/google";
 import Script from "next/script";
 import "../assets/css/style.min.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const geistSans = Kanit({
+  variable: "--font-kanit-sans",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+export const playball = Playball({
+  variable: "--font-playball",
+  weight: ["400"],
   subsets: ["latin"],
 });
 
@@ -24,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${playball.variable}`}>
         <Navbar />
         {children}
         <ScrollToTop />

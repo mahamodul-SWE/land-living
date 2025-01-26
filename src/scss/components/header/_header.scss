@@ -24,6 +24,7 @@ header {
   }
 .nav-item{
   @include font($primaryFont, 16, semibold, normal, normal);
+  font-family: var(--font-kanit-sans);
   margin-right: 16px;
   &:last-child {
     margin-right: 0;
