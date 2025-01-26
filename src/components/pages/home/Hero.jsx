@@ -17,7 +17,7 @@ export default function Hero() {
                 style={{ width: "100%" }}
               ></div>
             </div>
-            <Image src={slider1} alt="placeholder" />
+            <Image src={slider1} alt="placeholder" quality={100} placeholder="blur" priority/>
           </div>
 
           {/* <!-- hero content --> */}

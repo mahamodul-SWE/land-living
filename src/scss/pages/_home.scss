@@ -359,6 +359,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
   @include breakpoint(tab992) {
     padding-top: size(100);
     padding-bottom: size(100);
