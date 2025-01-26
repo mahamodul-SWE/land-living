@@ -54,14 +54,14 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarScroll">
+          <div className="collapse navbar-collapse pb-3 p-md-0" id="navbarScroll">
             <ul
               className="navbar-nav mx-auto flex-1 my-1 my-lg-0 navbar-nav-scroll"
             >
               {
                 navLinks.map((link, index) => (
                   <li className="nav-item" key={index}>
-                    <Link className={`nav-link ${pathname?.startsWith(link.href) ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
+                    <Link className={`nav-link ${pathname == link.href ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
                   </li>
                 ))
               }

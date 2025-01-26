@@ -1,9 +1,11 @@
 import r1 from "@/assets/images/r-1.jpeg";
+import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
 export default function Reviews() {
   return (
     <>
+      <Breadcrumb title="Review" />
       <main className="container mt-5">
         <div className="testimonial-card row gap-3 gap-md-0">
           <div className="col-md-7">

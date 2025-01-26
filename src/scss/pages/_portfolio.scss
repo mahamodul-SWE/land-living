@@ -37,7 +37,7 @@
           display: flex;
           justify-content: center;
           flex-direction: column;
-          align-items: start;
+          align-items: flex-start;
           opacity: 0;
           transition: all 0.3s;
           h3 {
@@ -45,7 +45,7 @@
           }
           p {
             color: $white-02;
-            text-align: start;
+            text-align: flex-start;
           }
           button,
           h3,
