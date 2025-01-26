@@ -1,3 +1,6 @@
+@use "../global" as *;
+@use "../partials" as *;
+
 .testimonial-card {
   padding: 1.5rem;
   background-color: #f8f9fa;
@@ -5,7 +8,7 @@
   margin-bottom: 2rem;
 }
 .stars {
-  color: #ffc107;
+  color: $primary;
   margin-bottom: 0.5rem;
 }
 
