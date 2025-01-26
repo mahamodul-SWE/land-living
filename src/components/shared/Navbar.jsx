@@ -1,7 +1,41 @@
+"use client"
 import logo from "@/assets/images/logo.png"
 import Image from "next/image"
-export default function Navbar() {
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+const navLinks = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "Development",
+    href: "/development",
+  },
+  {
+    title: "How We Work",
+    href: "/how-we-work",
+  },
+  {
+    title: "Reviews",
+    href: "/reviews",
+  },
+  {
+    title: "Portfolio",
+    href: "/portfolio",
+  },
 
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+  {
+    title: "FAQ",
+    href: "/faq",
+  },
+]
+export default function Navbar() {
+  const pathname = usePathname()
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary py-0">
@@ -24,29 +58,13 @@ export default function Navbar() {
             <ul
               className="navbar-nav mx-auto flex-1 my-1 my-lg-0 navbar-nav-scroll"
             >
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-                >
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="development.html">Developments</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="howWork.html">How We Work</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="reviews.html">Reviews</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="faq.html">FAQ</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="contact.html">Contact Us</a>
-              </li>
+              {
+                navLinks.map((link, index) => (
+                  <li className="nav-item" key={index}>
+                    <Link className={`nav-link ${pathname?.startsWith(link.href) ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
+                  </li>
+                ))
+              }
             </ul>
             <div className="d-flex" role="search">
               <button className="ll-btn-primary" type="submit">Call now</button>
