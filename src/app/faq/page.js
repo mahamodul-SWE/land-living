@@ -1,5 +1,11 @@
 import bannerImg from "@/assets/images/Feb-Business_9.jpg";
 import Image from "next/image";
+
+export const metadata = {
+  title: "FAQ || Land Living",
+  description:
+    "Frequently asked questions about Land Living. We're here to help you find the information you need.",
+};
 export default function FAQ() {
   return (
     <>

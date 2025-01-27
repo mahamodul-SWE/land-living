@@ -1,5 +1,11 @@
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
+export const metadata = {
+  title: "Contact Us || Land Living",
+  description:
+    "Contact Land Living for any inquiries, questions, or concerns. We're here to help you find the perfect solution for your dream home.",
+};
+
 export default function Contact() {
   return (
     <>

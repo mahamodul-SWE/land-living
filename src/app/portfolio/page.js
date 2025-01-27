@@ -7,6 +7,12 @@ import product3 from "@/assets/images/project3.png";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Portfolio || Land Living",
+  description:
+    "We are a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
+};
+
 export default function Portfolio() {
   return (
     <>
