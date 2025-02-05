@@ -1,6 +1,7 @@
-import about from "@/assets/images/about.jpg";
+import about from "@/assets/images/about-1.jpg";
 import commitment from "@/assets/images/commitment.jpg";
-import mission from "@/assets/images/mission.jpeg";
+import inSearch from "@/assets/images/inSearch.jpg";
+import mission from "@/assets/images/mission.jpg";
 import Image from "next/image";
 import Link from "next/link";
 export default function About() {
@@ -28,7 +29,7 @@ export default function About() {
         <div className="row align-items-center mt-3 flex-xxl-row-reverse">
           <div className="col-xxl-6 mb-5">
             <Image
-              src={mission}
+              src={inSearch}
               alt="placeholder"
               className="about-img"
             />
