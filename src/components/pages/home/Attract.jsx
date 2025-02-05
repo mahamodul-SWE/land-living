@@ -24,11 +24,12 @@ export default function Attract() {
       <div className="container">
         <div className="wrapper-att">
           <div className="content">
-            <h2 className="section-title">Attractive Properties</h2>
+            <h2 className="section-title">We are here for you</h2>
             <p>
-              We've found a property that stands out. Our team has gathered some
-              of the best photos and details to help you make an informed
-              decision.
+              At Land & Living, we fulfill your land's desired values, Whether you're a landowner or investor.
+            </p>
+            <p>
+              We also specialize in developing homes, ensuring a seamless process from city approvals to construction, delivering quality and compliance at every step.
             </p>
           </div>
           <div className="text-end">

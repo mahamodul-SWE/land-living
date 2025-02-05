@@ -25,8 +25,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="row align-items-center mt-3 flex-xl-row-reverse">
-          <div className="col-xl-6 mb-5">
+        <div className="row align-items-center mt-3 flex-xxl-row-reverse">
+          <div className="col-xxl-6 mb-5">
             <Image
               src={mission}
               alt="placeholder"
@@ -34,7 +34,7 @@ export default function About() {
             />
           </div>
 
-          <div className="col-xl-6">
+          <div className="col-xxl-6">
             <h2 className="section-title">In Search of Land</h2>
             <p>
               Land & Living is always seeking new land opportunities. We specialize in acquiring potential land deals without planning permission in the South East of England but also consider sites with planning approval for development and construction. No project is too big or small—if you have land or a site and would like a free, no-obligation assessment, feel free to reach out. We’d love to hear from you!
@@ -51,14 +51,14 @@ export default function About() {
         </div>
 
         <div className="row align-items-center mt-3">
-          <div className="col-xl-6 mb-5">
+          <div className="col-xxl-6 mb-5">
             <Image
               src={mission}
               alt="placeholder"
               className="about-img"
             />
           </div>
-          <div className="col-xl-6">
+          <div className="col-xxl-6">
             <h2 className="section-title">Mission and vision</h2>
             <p>
               At Land & Living, our vision is to provide exceptional service by prioritizing strong relationships and community impact. We carefully assess each plot’s suitability, considering landowners' goals and the broader community’s needs.
@@ -73,8 +73,8 @@ export default function About() {
           </div>
         </div>
 
-        <div className="row align-items-center mt-3 flex-xl-row-reverse">
-          <div className="col-xl-6 mb-5">
+        <div className="row align-items-center mt-3 flex-xxl-row-reverse">
+          <div className="col-xxl-6 mb-5">
             <Image
               src={commitment}
               alt="placeholder"
