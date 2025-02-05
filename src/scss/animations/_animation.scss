@@ -49,3 +49,16 @@
     opacity: 1;
   }
 }
+
+
+.increaseWidth{
+  animation: increaseWidth 5s ease-in-out infinite;
+}
+@keyframes increaseWidth {
+  0% {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

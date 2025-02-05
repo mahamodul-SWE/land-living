@@ -10,11 +10,14 @@
   position: relative;
   margin-top: 70px;
   background: linear-gradient(to right, $white, transparent);
+
   .slider-progress {
     .progress-bar {
       background-color: $primary-08;
       height: 5px;
+      // transition: 0.5s;
     }
+   
   }
 
   .slider-image-div {
@@ -51,8 +54,8 @@
   .slider-pagination {
     position: absolute;
     bottom: 3rem;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 16%;
+    // transform: translateX(-50%);
     @include breakpoint(desktop1024) {
       left: auto;
       transform: none;
