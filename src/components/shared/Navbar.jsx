@@ -1,5 +1,5 @@
 "use client"
-import logo from "@/assets/images/logo.png"
+import logo from "@/assets/images/land_Living_yellow_logo.png"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"

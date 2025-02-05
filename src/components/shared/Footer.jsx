@@ -1,5 +1,5 @@
-import logo from "@/assets/images/logo.png"
-import Image from "next/image"
+import logo from "@/assets/images/land_Living_yellow_logo.png";
+import Image from "next/image";
 
 export default function Footer() {
 
