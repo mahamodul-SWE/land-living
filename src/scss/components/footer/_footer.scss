@@ -103,7 +103,8 @@ footer {
       @include flex-center-vert;
       gap: size(10);
       .hl {
-        i{
+        svg,
+        i {
           color: $primary !important;
           font-size: 18px;
         }
