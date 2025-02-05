@@ -23,7 +23,7 @@ export default function Reviews() {
                   <Image src={review} alt="testimonial left" />
                 </figure>
               </div>
-              <div className="col-lg-6 pe-5">
+              <div className="col-lg-6 p-5">
                 {/* <!-- Swiper slider container --> */}
                 <div className="single-testimonial text-center">
                   <h3 className="text-center mx-auto">Review</h3>
@@ -52,7 +52,13 @@ export default function Reviews() {
         </section>
         <section className="testimonial">
           <div className="">
-            <div className="row">
+            <div className="row flex-lg-row-reverse">
+              <div className="col-lg-6">
+                <figure className="testimonial-thumb">
+                  <Image src={r1} alt="testimonial left" />
+                </figure>
+              </div>
+
               <div className="col-lg-6 ps-5">
                 {/* <!-- Swiper slider container --> */}
                 <div className="single-testimonial text-center">
@@ -76,12 +82,6 @@ export default function Reviews() {
                   </p>
                   <p className="name">Kawsar Ahmed</p>
                 </div>
-              </div>
-
-              <div className="col-lg-6">
-                <figure className="testimonial-thumb">
-                  <Image src={r1} alt="testimonial left" />
-                </figure>
               </div>
             </div>
           </div>
