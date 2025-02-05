@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
           <div className="col-lg-4">
             <div className="footer-right">
-              <h3 className="footer-title">newsletter subscribe</h3>
+              {/* <h3 className="footer-title">newsletter subscribe</h3>
               <div>
                 <div className="input-group mb-3">
                   <input
@@ -60,9 +60,9 @@ export default function Footer() {
                     Subscribe
                   </button>
                 </div>
-              </div>
+              </div> */}
               <div>
-                <h3 className="footer-title mb-2">follow us on</h3>
+                <h3 className="footer-title">follow us on</h3>
                 <div className="socials">
                   <a
                     target="_blank"
