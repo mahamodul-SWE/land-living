@@ -15,5 +15,57 @@
 .testimonial-image {
   border-radius: 8px;
   object-fit: cover;
-  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.12);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+.testimonial {
+  // padding: size(40) size(0);
+  // @include breakpoint(mobile576) {
+  //   padding: size(60) size(0);
+  // }
+  // @include breakpoint(tab992) {
+  //   padding: size(90) size(0);
+  // }
+  padding-bottom: size(20);
+  position: relative;
+  .single-testimonial {
+    @include flex-column;
+    gap: size(20);
+    align-items: center;
+    // padding: size(50) size(0);
+    // padding-bottom: size(0);
+    // padding-right: 20px;
+    justify-content: center;
+    height: 100%;
+    .icon {
+      color: $primary;
+      font-size: 40px;
+      // margin-bottom: size(10);
+    }
+    .text {
+      color: rgba(4, 4, 21, 0.6);
+      @include font($primaryFont, 20, medium, normal, 34);
+    }
+    .name {
+      color: rgba(4, 4, 21, 0.8);
+      @include font($primaryFont, 24, semibold, normal, 34);
+      position: relative;
+      &::after {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 3px;
+        background-color: rgba(4, 4, 21, 0.8);
+        position: absolute;
+        top: 50%;
+        left: -26px;
+        transform: translateY(-50%);
+      }
+    }
+    // .designation {
+    //   color: rgba(92, 92, 93, 0.8);
+    //   @include font($primaryFont, 16, semibold, normal, 22);
+    //   margin-bottom: size(16);
+    // }
+  }
 }
