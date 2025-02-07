@@ -10,7 +10,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Portfolio || Land Living",
   description:
-    "We are a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
+    "Discover our portfolio showcasing - successful land acquisitions and transformative developments. We bring visionary projects to life with precision and expertise. with a focus on quality, sustainability, and community growth.",
 };
 
 export default function Portfolio() {
@@ -20,11 +20,12 @@ export default function Portfolio() {
       <main>
         <div className="container">
           <section className="projects-section">
-            <h2>We&#39;re More Than Just A Number</h2>
+            <h2>Our Land and Development Success Stories</h2>
             <p className="sec-des">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Discover our portfolio showcasing - successful land acquisitions
+              and transformative developments. We bring visionary projects to
+              life with precision and expertise. with a focus on quality,
+              sustainability, and community growth.
             </p>
             <div className="projects-grid">
               <div className="project-card">

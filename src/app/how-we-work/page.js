@@ -25,7 +25,10 @@ export default function HowWeWork() {
               />
             </div>
             <div className="col-md-6">
-              <h2 className="section-title">Client Satisfaction</h2>
+              <h2 className="section-title">
+                Our Seamless Process: Land Acquisition, Development, and
+                Approvals
+              </h2>
               <p>
                 We are a dynamic, innovative, and dedicated agency that
                 specializes in providing the best possible solutions to our

@@ -175,43 +175,47 @@
   }
 }
 
-.features-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  padding: 76px 0px;
-  background-color: #fff;
+.free-service-section {
+  padding: 50px 0px;
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding: 76px 0px;
+    background-color: #fff;
 
-  @include breakpoint(mobile576) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between !important;
-  }
-  .feature-item {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    width: fit-content;
-    // flex: 1;
-    .icon {
-      i {
-        font-size: 30px;
+    @include breakpoint(mobile576) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint(desktop1024) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .feature-item {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      width: fit-content;
+      // flex: 1;
+      .icon {
+        i {
+          font-size: 30px;
+          color: $primary;
+        }
       }
-    }
 
-    h3 {
-      margin: 0;
-      font-weight: bold;
-      color: #000;
-    }
+      h3 {
+        font-size: 20px;
+        // margin: 0;
+        font-weight: bold;
+        color: $heading-color;
+      }
 
-    p {
-      margin: 0;
-      font-size: 14px;
-      color: #000;
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: $para-color;
+      }
     }
   }
 }
