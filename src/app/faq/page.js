@@ -120,7 +120,7 @@ export default function FAQ() {
           <div className="wrapper">
             <div className="accordion pt-2" id="accordionExample">
               {faqData.map((categoryItem, categoryIndex) => (
-                <div key={categoryIndex}>
+                <div key={categoryIndex} className="mb-4">
                   <h3 className="acc_title">{categoryItem.category}</h3>
                   {categoryItem.questions.map((questionItem, questionIndex) => (
                     <div className="accordion-item" key={questionIndex}>

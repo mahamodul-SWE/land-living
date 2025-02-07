@@ -1,5 +1,6 @@
 import logo from "@/assets/images/land_Living_yellow_logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
 
@@ -28,9 +29,7 @@ export default function Footer() {
                       <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                     </svg>
                   </span>
-                  <span className="text text-start"
-                  >Plaza X , XY Floor, XYZ Street, XYZ</span
-                  >
+                  <address className="text text-start">123, Road No. 10, Dhanmondi, Dhaka-1209</address>
                 </li>
                 <li className="phone">
                   <span className="hl">
@@ -119,7 +118,7 @@ export default function Footer() {
             <p></p>
             <ul className="footer-link">
               <li><a href="#">Privacy Policy </a></li>
-              <li><a href="#"> FAQ</a></li>
+              <li><Link href="/faq"> FAQ</Link></li>
               <li><a href="#">Terms & Conditions</a></li>
             </ul>
           </div>
