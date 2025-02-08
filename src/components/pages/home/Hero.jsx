@@ -11,19 +11,19 @@ import { useEffect, useState } from "react";
 const sliders = [
   {
     image: slider1,
-    title: `Build Your <span class="heigh-light">Dream Home</span> <br />
+    title: `Build Your <span className="heigh-light">Dream Home</span> <br />
       Reach Us, and we will do the rest`,
     caption: `Beautiful Lake View`,
   },
   {
     image: slider2,
-    title: `Build Your <span class="heigh-light">Dream Home</span> <br />
+    title: `Build Your <span className="heigh-light">Dream Home</span> <br />
       Reach Us, and we will do the rest`,
     caption: `Amazing Street View`,
   },
   {
     image: slider3,
-    title: `Sell Your land With <span class="heigh-light"> maximized value.</span>`,
+    title: `Sell Your land With <span className="heigh-light"> maximized value.</span>`,
     caption: `Land Picture`,
   },
 

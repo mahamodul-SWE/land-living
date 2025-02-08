@@ -48,7 +48,7 @@ export default function About() {
                   into thriving communities.
                 </p>
                 <p>
-                  Let us help you unlock your land's true value. Contact us
+                  Let us help you unlock your land&apos;s true value. Contact us
                   today for a free consultation!
                 </p>
               </div>
@@ -88,7 +88,7 @@ export default function About() {
                     leveraging market expertise and industry connections to
                     secure the best possible deal. Our goal is to create a
                     seamless and rewarding experience tailored to each
-                    landowner's needs.
+                    landowner&apos;s needs.
                   </p>
                 </div>
                 {/* <Link href="/about" className="ll-btn-primary">Learn More</Link> */}

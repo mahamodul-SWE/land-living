@@ -1,3 +1,3 @@
 export default function Development() {
-  return <div>Development</div>;
+  return <div></div>;
 }

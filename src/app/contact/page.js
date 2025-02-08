@@ -99,12 +99,7 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Call us</h4>
                     <span className="text text-start">
-                      <a
-                        href="call:+8801753674485
-"
-                      >
-                        +8801753674485
-                      </a>
+                      <a href="call:+8801753674485">+8801753674485</a>
                     </span>
                   </div>
                 </div>
