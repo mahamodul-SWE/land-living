@@ -42,7 +42,7 @@ export default function Navbar() {
   const pathname = usePathname()
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary py-0">
+      <nav className="navbar navbar-expand-xl bg-body-tertiary py-0">
         <div className="container">
           <a className="navbar-brand" href="/">
             <Image src={logo} alt="Logo" className="logo" />
@@ -58,9 +58,9 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse pb-3 p-md-0" id="navbarScroll">
+          <div className="collapse navbar-collapse pb-3 p-xl-0" id="navbarScroll">
             <ul
-              className="navbar-nav mx-auto flex-1 my-1 my-lg-0 navbar-nav-scroll"
+              className="navbar-nav mx-auto flex-1 my-1 my-xl-0 navbar-nav-scroll"
             >
               {
                 navLinks.map((link, index) => (
