@@ -2,6 +2,12 @@ import commitment from "@/assets/images/commitment.jpg";
 import review from "@/assets/images/review.jpg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
+
+export const metadata = {
+  title: "About Us || Land Living",
+  description:
+    "Discover the story behind Land & Living, a leading property management company specializing in land acquisition, development, and securing planning permissions.",
+};
 export default function About() {
   return (
     <div>
