@@ -1,3 +1,4 @@
+import howWeWork from "@/assets/images/howWork.jpeg";
 import aboutImg from "@/assets/images/mission.jpeg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
@@ -10,7 +11,7 @@ export const metadata = {
 export default function HowWeWork() {
   return (
     <>
-      <Breadcrumb title="How We Work" />
+      <Breadcrumb title="How We Work" bgImage={howWeWork} />
       {/* <!-- client satifaction--> */}
       <div className="about-section">
         <div className="container">

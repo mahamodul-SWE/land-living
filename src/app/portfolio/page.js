@@ -16,7 +16,7 @@ export const metadata = {
 export default function Portfolio() {
   return (
     <>
-      <Breadcrumb title="Portfolio" />
+      <Breadcrumb title="Portfolio" bgImage={product2} />
       <main>
         <div className="container">
           <section className="projects-section">

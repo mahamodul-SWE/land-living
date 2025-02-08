@@ -50,7 +50,7 @@ const reviews = [
 export default function Reviews() {
   return (
     <>
-      <Breadcrumb title="Review" />
+      <Breadcrumb title="Review" bgImage={review} />
       <main className="mt-5 mb-4">
         {reviews.map(({ name, image, review, title }, index) => (
           <section key={{ index }} className="testimonial">

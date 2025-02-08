@@ -71,7 +71,9 @@ export default function Contact() {
             <div className="col-lg-6">
               <div className="contact-info">
                 <h3 className="section-title">Get in touch</h3>
-                <p className="contact-info-text">Lorem ipsum dolor sit amet,</p>
+                <p className="contact-info-text">
+                  Reach out to us for any inquiries or collaboration ideas.
+                </p>
                 <div className="contact-list">
                   <div className="contact-item">
                     <span className="icon">
@@ -79,7 +81,7 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Our main office</h4>
                     <p className="text text-start">
-                      Plaza X , XY Floor, XYZ Street, XYZ
+                      123, Road No. 10, Dhanmondi, Dhaka-1209
                     </p>
                   </div>
                   <div className="contact-item">
@@ -97,7 +99,12 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Call us</h4>
                     <span className="text text-start">
-                      <a href="mailto:lorem@gmail.com">01xxxxxxxx </a>
+                      <a
+                        href="call:+8801753674485
+"
+                      >
+                        +8801753674485
+                      </a>
                     </span>
                   </div>
                 </div>

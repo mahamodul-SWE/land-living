@@ -9,6 +9,10 @@ const navLinks = [
     href: "/",
   },
   {
+    title: "About",
+    href: "/about",
+  },
+  {
     title: "Development",
     href: "/development",
   },
@@ -33,7 +37,7 @@ const navLinks = [
     title: "FAQ",
     href: "/faq",
   },
-]
+];
 export default function Navbar() {
   const pathname = usePathname()
   return (

@@ -1,0 +1,61 @@
+@use "../global" as *;
+@use "../partials" as *;
+
+.real-estate-section {
+  background-color: #f7f3eb;
+  padding: 50px;
+}
+.comprehensive{
+  padding-top: size(80);
+  padding-bottom: size(80);
+  .section-title{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+.info-box {
+  background: #1a1a2e;
+  color: white;
+  padding: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  @include breakpoint(tab992){
+    border-radius: 10px;
+    padding-left: 60px;
+  }
+  h5{
+    font-weight: 700;
+    color: $primary;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  p{
+    font-size: 18px;
+    color: $white-01;
+  }
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 34px;
+  color: $primary;
+  margin-right: 15px;
+}
+
+.image-section {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transform: translateX(40px);
+  overflow: hidden;
+  padding: 0;
+  @include breakpoint(tab992){
+    border-radius: 10px;
+  }
+}
