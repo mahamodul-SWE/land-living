@@ -60,8 +60,8 @@ export default function About() {
               </div>
             </div>
 
-            <div className="row align-items-center mt-3 flex-xxl-row-reverse">
-              <div className="col-xxl-6 mb-5">
+            <div className="row align-items-center mt-3 flex-xl-row-reverse">
+              <div className="col-xl-6 mb-5">
                 <Image
                   src={commitment}
                   alt="placeholder"
@@ -114,7 +114,7 @@ export default function About() {
               </div>
               <div className="col-lg-6 info-box">
                 <div className="info-item">
-                  <i className="bi bi-house-door icon"></i>
+                  <i class="bi bi-pin-map-fill icon"></i>
                   <div>
                     <h5>Land Acquisition and Sale</h5>
                     <p>
@@ -137,7 +137,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="info-item">
-                  <i className="bi bi-buildings icon"></i>
+                  <i className="bi bi-map icon"></i>
                   <div>
                     <h5>Planning & Approvals</h5>
                     <p>
@@ -147,7 +147,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="info-item">
-                  <i className="bi bi-key icon"></i>
+                  <i class="bi bi-microsoft-teams icon"></i>
                   <div>
                     <h5>Construction Management</h5>
                     <p>
