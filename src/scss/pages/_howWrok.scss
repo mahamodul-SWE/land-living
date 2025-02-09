@@ -71,39 +71,7 @@
   }
 }
 
-.mission-statement {
-  background-color: $white;
 
-  .statement {
-    background: linear-gradient(110deg, #27252d 0%, #43403e 100%);
-    padding: 40px;
-    @include breakpoint(mobile768) {
-      height: 350px;
-    }
-    @include breakpoint(desktop1024) {
-      padding: 60px;
-      // border-radius: 8px;
-      height: 500px;
-    }
-    @include breakpoint(desktop1200) {
-      height: 400px;
-    }
-    p {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 18px;
-      font-weight: bold;
-      line-height: 1.3em;
-      margin-bottom: 30px;
-      @include breakpoint(desktop1100) {
-        font-size: 24px;
-      }
-    }
-    .playball-regular {
-      color: $white-02;
-      font-size: 16px;
-    }
-  }
-}
 
 .howWorkPage {
   .section-title {

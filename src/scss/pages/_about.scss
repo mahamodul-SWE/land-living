@@ -5,10 +5,10 @@
   background-color: #f7f3eb;
   padding: 50px;
 }
-.comprehensive{
+.comprehensive {
   padding-top: size(80);
   padding-bottom: size(80);
-  .section-title{
+  .section-title {
     text-align: center;
     margin: auto;
     margin-bottom: 1rem;
@@ -21,17 +21,17 @@
   padding: 30px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  @include breakpoint(tab992){
+  @include breakpoint(tab992) {
     border-radius: 10px;
     padding-left: 60px;
   }
-  h5{
+  h5 {
     font-weight: 700;
     color: $primary;
     font-size: 24px;
     margin-bottom: 8px;
   }
-  p{
+  p {
     font-size: 18px;
     color: $white-01;
   }
@@ -55,7 +55,33 @@
   transform: translateX(40px);
   overflow: hidden;
   padding: 0;
-  @include breakpoint(tab992){
+  @include breakpoint(tab992) {
     border-radius: 10px;
+  }
+}
+
+.mission-statement {
+  background-color: $white;
+  margin-bottom: 3rem;
+  .statement {
+    background: linear-gradient(110deg, #27252d 0%, #43403e 100%);
+    padding: 40px;
+    border-radius: 10px;
+
+    p {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.3em;
+      margin-bottom: 30px;
+      letter-spacing: 1.2;
+      @include breakpoint(desktop1100) {
+        font-size: 24px;
+      }
+    }
+    .playball-regular {
+      color: $white-02;
+      font-size: 16px;
+    }
   }
 }

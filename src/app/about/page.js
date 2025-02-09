@@ -53,9 +53,11 @@ export default function About() {
                   commitment to sustainable development, we help turn properties
                   into thriving communities.
                 </p>
-                <p>
-                  Let us help you unlock your land&apos;s true value. Contact us
-                  today for a free consultation!
+                <p className="fs-4">
+                  <strong>
+                    Let us help you unlock your land&apos;s true value. Contact
+                    us today for a free consultation!
+                  </strong>
                 </p>
               </div>
             </div>
@@ -160,6 +162,26 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        <section>
+          <div className="container mission-statement">
+            <div className="row align-items-center p-0">
+              <div className="col p-0">
+                <div className="statement">
+                  <p>
+                    At Land & Living, we are committed to give best value to
+                    landownership into lasting opportunities. Our mission is to
+                    create high-quality developments that enhance communities
+                    and stand the test of time. Let us help you unlock the true
+                    potential of your land today. Also, turn your dream home
+                    into reality with our development team.
+                  </p>
+                  <h4 className="playball-regular">We are here to help</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
