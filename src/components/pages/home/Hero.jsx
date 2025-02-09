@@ -38,9 +38,11 @@ export default function Hero() {
     const interval = setInterval(() => {
       setActive((prev) => prev === sliders.length - 1 ? 0 : prev + 1)
     }, 5000)
-    return () => clearInterval(interval)
+  
+    return () => {
+      clearInterval(interval)
+    }
   }, [])
-
 
   const handleClick = (value) => {
     setProgress(value)
@@ -54,9 +56,9 @@ export default function Hero() {
       {/* <!-- slider progress --> */}
       <div className="slider-progress">
         <div
-          className={`progress-bar `}
+          className={`progress-bar`}
           role="progressbar"
-          style={{ width: `${100}%` }}
+          style={{ width: `${progress}%` }}
         ></div>
       </div>
 

@@ -102,10 +102,10 @@ export default function FAQ() {
                 support.
               </p>
             </div>
-            <figure className="d-flex justify-content-end">
+            <figure>
               <Image
                 src={bannerImg}
-                style={{ width: "80%" }}
+                // style={{ width: "80%" }}
                 alt=""
                 placeholder="blur"
                 quality={100}
