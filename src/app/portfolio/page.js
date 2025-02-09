@@ -4,8 +4,8 @@ import product4 from "@/assets/images/product4.png";
 import product5 from "@/assets/images/product5.png";
 import product6 from "@/assets/images/product6.png";
 import product3 from "@/assets/images/project3.png";
+import PortfolioItem from "@/components/pages/portfolio/PortfolioItem";
 import Breadcrumb from "@/components/shared/Breadcrumb";
-import Image from "next/image";
 
 export const metadata = {
   title: "Portfolio || Land Living",
@@ -14,6 +14,42 @@ export const metadata = {
 };
 
 export default function Portfolio() {
+  const products = [
+    {
+      title: "Premium Product 1",
+      description:
+        "High-quality and durable product designed for modern needs.",
+      image: product1,
+    },
+    {
+      title: "Luxury Product 2",
+      description: "A stylish and elegant product perfect for premium users.",
+      image: product2,
+    },
+    {
+      title: "Innovative Product 3",
+      description: "A state-of-the-art product with advanced features.",
+      image: product3,
+    },
+    {
+      title: "Classic Product 4",
+      description: "A timeless piece that blends tradition with technology.",
+      image: product4,
+    },
+    {
+      title: "Eco-Friendly Product 5",
+      description:
+        "Sustainable and environment-friendly, built for a better future.",
+      image: product5,
+    },
+    {
+      title: "Smart Product 6",
+      description:
+        "A next-generation smart device with cutting-edge technology.",
+      image: product6,
+    },
+  ];
+
   return (
     <>
       <Breadcrumb title="Portfolio" bgImage={product2} />
@@ -28,66 +64,9 @@ export default function Portfolio() {
               sustainability, and community growth.
             </p>
             <div className="projects-grid">
-              <div className="project-card">
-                <Image src={product1} alt="Project 1" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
-              <div className="project-card">
-                <Image src={product2} alt="Project 2" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
-              <div className="project-card">
-                <Image src={product3} alt="Project 3" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
-              <div className="project-card">
-                <Image src={product4} alt="Project 4" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
-              <div className="project-card">
-                <Image src={product5} alt="Project 5" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
-              <div className="project-card">
-                <Image src={product6} alt="Project 6" />
-                <div className="project-info">
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <button className="view-project-btn">View Project</button>
-                </div>
-              </div>
+              {products.map((product, index) => (
+                <PortfolioItem key={product.title} product={product} />
+              ))}
             </div>
           </section>
         </div>
