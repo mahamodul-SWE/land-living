@@ -20,7 +20,7 @@ export default function About() {
                 <h2 className="section-title">Mission And Vision</h2>
                 <p>
                   At Land & Living, we specialize in unlocking the full
-                  potential of your land, ensuring you get the best value for
+                  potential of your land, ensuring you get the best value for``
                   your property. Whether you’re looking to sell, explore
                   development opportunities, or secure planning permissions, our
                   expert team provides a smooth and efficient process every step

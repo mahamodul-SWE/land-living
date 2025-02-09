@@ -9,38 +9,65 @@ export const metadata = {
     "We are a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
 };
 export default function HowWeWork() {
+  const services = [
+    {
+      title: "Unlock Maximum Land Value",
+      description:
+        "At Land & Living, we specialize in identifying and acquiring prime land opportunities. Our experienced team evaluates each plot based on location, potential, and market trends to ensure maximum value. We offer a smooth, transparent process, from initial consultation to final transaction, making sure that landowners receive the best offer for their property. Whether you're looking to sell land with or without planning permission, we help guide you through every step with confidence. Just reach out to us, and we’ll handle the rest.",
+      image: aboutImg,
+    },
+    {
+      title: "Transforming Vision into Reality",
+      description:
+        "We bring our customer's potential to life through expert development services. From concept to completion, our team manages every phase of the development process, including design, planning, and construction. We work closely with architects, engineers, and contractors to create high-quality, sustainable properties that meet community needs and your vision. Our focus is on delivering exceptional developments that maximize land value while creating lasting, positive impacts on the surrounding area.",
+      image: howWeWork,
+    },
+    {
+      title: "Hassle-Free Approvals & Permits",
+      description:
+        "Navigating planning and zoning regulations can be complex, but our team simplifies the process. We assist our customers in obtaining the necessary approvals and permits from local authorities to ensure smooth development. From securing planning permission to managing environmental assessments, we handle all aspects of the approval process. With our in-depth knowledge of local regulations and strong relationships with municipal authorities, we ensure that your project progresses without delays or hurdles.",
+      image: howWeWork,
+    },
+  ];
+
+  console.log(services);
+
   return (
     <>
       <Breadcrumb title="How We Work" bgImage={howWeWork} />
       {/* <!-- client satifaction--> */}
-      <div className="about-section">
-        <div className="container">
-          <div className="row align-items-center mt-3 flex-md-row-reverse">
-            <div className="col-md-6 mb-5">
-              <Image
-                src={aboutImg}
-                alt="placeholder"
-                className="about-img"
-                quality={100}
-                placeholder="blur"
-              />
-            </div>
-            <div className="col-md-6">
-              <h2 className="section-title">
-                Our Seamless Process: Land Acquisition, Development, and
-                Approvals
-              </h2>
-              <p>
-                We are a dynamic, innovative, and dedicated agency that
-                specializes in providing the best possible solutions to our
-                clients real estate needs. Our team is made up of experts in
-                various fields, including architecture, interior design, and
-                property management.
-              </p>
-            </div>
-          </div>
+
+      <section className="about-section py-5 howWorkPage">
+        <div className="text-center mb-4">
+          <h2 className="section-title">
+            Our Seamless Process: Land Acquisition, Development, and Approvals
+          </h2>
         </div>
-      </div>
+        <div className="container">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className={`row align-items-center mt-5 ${
+                index % 2 !== 1 ? "flex-lg-row-reverse" : ""
+              }`}
+            >
+              <div className="col-lg-6 mb-4">
+                <Image
+                  src={service.image}
+                  alt="placeholder"
+                  className="about-img"
+                  quality={100}
+                  placeholder="blur"
+                />
+              </div>
+              <div className="col-lg-6">
+                <h2 className="section-title">{service.title}</h2>
+                <p>{service.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section>
         <div className="container howWork">
@@ -119,38 +146,6 @@ export default function HowWeWork() {
                   We create a detailed plan that includes the layout, interior
                   design, and any necessary amenities for your clients.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* <!-- mission statement --> */}
-      <section>
-        <div className="container mission-statement">
-          <div className="row align-items-center p-0">
-            <div className="col-md-6 p-0">
-              <div className="statement">
-                <p>
-                  We are a dynamic, innovative, and dedicated agency that
-                  specializes in providing the best possible solutions to our
-                  clients real estate needs. Our team is made up of experts in
-                  various fields, including architecture, interior design, and
-                  property management.
-                </p>
-                <h4 className="playball-regular">We are here to help</h4>
-              </div>
-            </div>
-            <div className="col-md-6 p-0">
-              <div className="statement">
-                <p>
-                  Our mission is to create a dynamic, innovative, and dedicated
-                  agency that specializes in providing the best possible
-                  solutions to our clients real estate needs. Our team is made
-                  up of experts in various fields, including architecture,
-                  interior design, and property management.
-                </p>
-                <h4 className="playball-regular">We are here to help</h4>
               </div>
             </div>
           </div>
