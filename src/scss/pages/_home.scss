@@ -248,8 +248,13 @@
 }
 
 .our_team_sec {
-  padding-top: size(153);
-  padding-bottom: size(115);
+  padding: 50px 0px;
+  height: fit-content;
+  overflow: hidden;
+
+  @include breakpoint(mobile768) {
+    padding: 100px 0px;
+  }
   background-color: $primary-10;
 
   .our_team_container {
@@ -263,16 +268,15 @@
       background-color: $white;
       // width: 246px;
       // height: 481px;
+      // padding: 20px;
       border-radius: 8px;
-      @include breakpoint(desktop1024) {
-        &:nth-child(even) {
-          display: flex;
-          flex-direction: column-reverse;
-        }
-      }
+     
       i {
         font-size: 40px;
         text-align: center;
+        color: $primary;
+        display: inline-block;
+        margin-bottom: 1rem;
       }
       .team_body {
         padding: size(28);

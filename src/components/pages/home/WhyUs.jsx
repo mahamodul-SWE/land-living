@@ -40,7 +40,7 @@ export default function WhyUs() {
       title: "Commitment to Sustainability",
       description: "Our developments focus on responsible growth, creating thriving communities for the future.",
       image: "sustainability.jpg",
-      icon: "bi bi-leaf"
+      icon: "bi bi-flower1"
     },
     {
       title: "Smooth Processing with Transparency",
@@ -62,10 +62,10 @@ export default function WhyUs() {
           {
             WhyUsData.map(({ title, description, icon }, index) => (
               <div className="team" key={title}>
+                <div className="team_body">
                 <div className="text-center">
                   <i className={icon}></i>
                 </div>
-                <div className="team_body">
                   <h3 className="team_count">{title}</h3>
                   <p className="team_name">{description}</p>
                 </div>
@@ -75,6 +75,7 @@ export default function WhyUs() {
           }
 
         </div>
+
       </div>
     </section>
 
