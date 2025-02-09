@@ -141,7 +141,7 @@ footer {
   background: #101010;
   padding: 20px 0;
   .bottom-wrapper {
-    @include flex-between;
+    @include flex-center;
     align-items: center;
     flex-direction: column;
     gap: size(20);

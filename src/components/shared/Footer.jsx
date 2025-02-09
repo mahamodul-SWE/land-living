@@ -68,7 +68,7 @@ export default function Footer() {
                   </button>
                 </div>
               </div> */}
-              <div>
+              <div className="mb-4">
                 <h3 className="footer-title">follow us on</h3>
                 <div className="socials">
                   <a
@@ -107,6 +107,18 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
+              <div>
+                <h3 className="footer-title mb-3">Have more query?</h3>
+                <ul className="footer-address">
+                  <li className="phone">
+                    <span className="hl">
+                      <i className="bi bi-question-circle"></i>
+                    </span>
+                    <Link href="/faq" className="text text-start"> FAQ</Link>
+                  </li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -115,12 +127,7 @@ export default function Footer() {
         <div className="container">
           <div className="bottom-wrapper">
             <p>© All rights reserved by Land and Leaving 2024</p>
-            <p></p>
-            <ul className="footer-link">
-              <li><a href="#">Privacy Policy </a></li>
-              <li><Link href="/faq"> FAQ</Link></li>
-              <li><a href="#">Terms & Conditions</a></li>
-            </ul>
+
           </div>
         </div>
       </div>
