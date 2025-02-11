@@ -1,5 +1,7 @@
+import hassle from "@/assets/images/hassle.jpg";
 import howWeWork from "@/assets/images/howWork.jpeg";
-import aboutImg from "@/assets/images/mission.jpeg";
+import transform from "@/assets/images/transform.jpg";
+import unlock from "@/assets/images/unlock.jpg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
@@ -14,19 +16,19 @@ export default function HowWeWork() {
       title: "Unlock Maximum Land Value",
       description:
         "At Land & Living, we specialize in identifying and acquiring prime land opportunities. Our experienced team evaluates each plot based on location, potential, and market trends to ensure maximum value. We offer a smooth, transparent process, from initial consultation to final transaction, making sure that landowners receive the best offer for their property. Whether you're looking to sell land with or without planning permission, we help guide you through every step with confidence. Just reach out to us, and we’ll handle the rest.",
-      image: aboutImg,
+      image: unlock,
     },
     {
       title: "Transforming Vision into Reality",
       description:
         "We bring our customer's potential to life through expert development services. From concept to completion, our team manages every phase of the development process, including design, planning, and construction. We work closely with architects, engineers, and contractors to create high-quality, sustainable properties that meet community needs and your vision. Our focus is on delivering exceptional developments that maximize land value while creating lasting, positive impacts on the surrounding area.",
-      image: howWeWork,
+      image: transform,
     },
     {
       title: "Hassle-Free Approvals & Permits",
       description:
         "Navigating planning and zoning regulations can be complex, but our team simplifies the process. We assist our customers in obtaining the necessary approvals and permits from local authorities to ensure smooth development. From securing planning permission to managing environmental assessments, we handle all aspects of the approval process. With our in-depth knowledge of local regulations and strong relationships with municipal authorities, we ensure that your project progresses without delays or hurdles.",
-      image: howWeWork,
+      image: hassle,
     },
   ];
 
