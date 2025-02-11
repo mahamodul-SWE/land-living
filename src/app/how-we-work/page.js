@@ -32,6 +32,51 @@ export default function HowWeWork() {
 
   console.log(services);
 
+  const steps = [
+    {
+      step: "Land Acquisition",
+      description:
+        "We start by identifying and acquiring the ideal land, ensuring it aligns with your project goals and investment strategy.",
+      icon: "geo-alt-fill",
+      color: "#2D9F89",
+    },
+    {
+      step: "Define Your Project",
+      description:
+        "We gather all essential details to craft a comprehensive project plan, considering your location, budget, and objectives.",
+      icon: "clipboard-data-fill",
+      color: "#FFB806",
+    },
+    {
+      step: "Approvals & Permits",
+      description:
+        "We handle all the necessary approvals and permits, ensuring that your project meets local zoning laws and regulatory requirements for a smooth development process.",
+      icon: "file-earmark-check-fill",
+      color: "#FF6F06",
+    },
+    {
+      step: "Research & Selection",
+      description:
+        "We conduct thorough research on local properties, schools, and other key factors to ensure an optimal and enjoyable experience for your clients.",
+      icon: "search",
+      color: "#59CA00",
+    },
+    {
+      step: "Design & Planning",
+      description:
+        "We develop a detailed design plan, outlining the layout, interior features, and any necessary amenities to meet your clients' needs.",
+      icon: "pen-fill",
+      color: "#007BFF",
+    },
+    {
+      step: "Building & Delivering the Project",
+      description:
+        "Our expert team manages the construction process from start to finish, ensuring timely delivery, quality craftsmanship, and compliance with all regulations.",
+      icon: "hammer",
+      color: "#DC3545",
+    },
+  ];
+
   return (
     <>
       <Breadcrumb title="How We Work" bgImage={howWeWork} />
@@ -83,7 +128,7 @@ export default function HowWeWork() {
       </section>
 
       {/* <!-- six step to implementation --> */}
-      <section className="six-step-section">
+      {/* <section className="six-step-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
@@ -149,6 +194,36 @@ export default function HowWeWork() {
               </div>
             </div>
           </div>
+        </div>
+      </section> */}
+
+      <section className="step-container-sec container">
+        <div
+          className="row row-cols-1 row-cols-lg-3 "
+          style={{ height: "fit-content" }}
+        >
+          {/* <!-- Step 1 --> */}
+
+          {/* <!-- Step 2 --> */}
+          {steps?.map((step, ind) => (
+            <div
+              key={step.color}
+              className={`col step-container step-container-${ind}`}
+            >
+              <h1 className="text-overlay ">{ind + 1}</h1>
+              <div className="px-3 position-relative">
+                <div className="border-dashed"></div>
+                <div className="step-icon" style={{ background: step.color }}>
+                  <i className={`bi bi-${step.icon}`}></i>
+                </div>
+                {/* <div className="border-dashed"></div> */}
+                <div className="mt-4">
+                  <h2 className="step-title">{step.step}</h2>
+                  <p className="step-description">{step.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </>

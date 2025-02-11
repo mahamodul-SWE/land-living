@@ -1,6 +1,9 @@
 // import avatar from "@/assets/images/";
+import houseDevelopment from "@/assets/images/House_building.jpg";
 import r1 from "@/assets/images/r-1.jpeg";
 import review from "@/assets/images/review.jpg";
+import paper from "@/assets/images/reviewImage1.jpg";
+import land from "@/assets/images/reviewImage2.jpg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
@@ -14,7 +17,7 @@ const reviews = [
   {
     name: "John M.",
     title: "– Smooth Land Sale Experience",
-    image: r1,
+    image: land,
     review: `Selling my land to Land & Living was a fantastic experience. Their team provided a fair offer, and the entire process was smooth and transparent. I was kept informed every step of the way, and I received payment much quicker than I expected. Highly recommend their services!`,
   },
   {
@@ -30,13 +33,13 @@ const reviews = [
   {
     name: " Emily R.",
     title: "– Exceptional Development Service",
-    image: r1,
+    image: houseDevelopment,
     review: `Land & Living helped turn my land into a thriving residential development. From planning and design to construction, they handled everything with professionalism and attention to detail. The end result exceeded my expectations, and I couldn’t be happier with the quality of the development. A truly top-notch team!" Also, they hand over the project in the promised time.`,
   },
   {
     name: " Michael D",
     title: "– Effortless and Transparent Process",
-    image: r1,
+    image: paper,
     review: `I was impressed by the smooth and efficient process  Land & Living offered. They took care of all the paperwork and approvals without any hassle, making the entire transaction stress-free. Their team is not only professional but also very transparent, which made the experience enjoyable. Great service all around!`,
   },
   {
