@@ -12,6 +12,12 @@ export const metadata = {
 
 const reviews = [
   {
+    name: "John M.",
+    title: "– Smooth Land Sale Experience",
+    image: r1,
+    review: `Selling my land to Land & Living was a fantastic experience. Their team provided a fair offer, and the entire process was smooth and transparent. I was kept informed every step of the way, and I received payment much quicker than I expected. Highly recommend their services!`,
+  },
+  {
     name: "James R.",
     title: "– Smooth & Profitable Experience",
     image: review,
@@ -20,18 +26,6 @@ const reviews = [
             and professionalism, ensuring I got the best value for my
             property. The entire process was stress-free, and I felt
             confident in every step. Highly recommend!`,
-  },
-  {
-    name: "Sarah L.",
-    title: "– Exceptional Service & Fair Pricing",
-    image: r1,
-    review: `I was unsure about selling my land, but Land Profits guided me through the process with expert advice and market insights. They offered a fair price and took care of all the paperwork, making the transaction quick and hassle-free. A truly outstanding team!`,
-  },
-  {
-    name: "John M.",
-    title: "– Smooth Land Sale Experience",
-    image: r1,
-    review: `Selling my land to Land & Living was a fantastic experience. Their team provided a fair offer, and the entire process was smooth and transparent. I was kept informed every step of the way, and I received payment much quicker than I expected. Highly recommend their services!`,
   },
   {
     name: " Emily R.",
@@ -44,6 +38,12 @@ const reviews = [
     title: "– Effortless and Transparent Process",
     image: r1,
     review: `I was impressed by the smooth and efficient process  Land & Living offered. They took care of all the paperwork and approvals without any hassle, making the entire transaction stress-free. Their team is not only professional but also very transparent, which made the experience enjoyable. Great service all around!`,
+  },
+  {
+    name: "Sarah L.",
+    title: "– Exceptional Service & Fair Pricing",
+    image: r1,
+    review: `I was unsure about selling my land, but Land Profits guided me through the process with expert advice and market insights. They offered a fair price and took care of all the paperwork, making the transaction quick and hassle-free. A truly outstanding team!`,
   },
 ];
 
