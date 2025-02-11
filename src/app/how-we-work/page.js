@@ -32,7 +32,7 @@ export default function HowWeWork() {
     },
   ];
 
-  console.log(services);
+  // console.log(services);
 
   const steps = [
     {

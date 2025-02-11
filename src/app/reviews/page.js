@@ -1,9 +1,10 @@
 // import avatar from "@/assets/images/";
 import houseDevelopment from "@/assets/images/House_building.jpg";
-import r1 from "@/assets/images/r-1.jpeg";
 import review from "@/assets/images/review.jpg";
 import paper from "@/assets/images/reviewImage1.jpg";
 import land from "@/assets/images/reviewImage2.jpg";
+import smooth from "@/assets/images/smooth.jpg";
+import value from "@/assets/images/value.jpg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
@@ -23,7 +24,7 @@ const reviews = [
   {
     name: "James R.",
     title: "– Smooth & Profitable Experience",
-    image: review,
+    image: smooth,
     review: `Selling my land to Land Profits was a seamless
             experience. Their team handled everything with transparency
             and professionalism, ensuring I got the best value for my
@@ -45,7 +46,7 @@ const reviews = [
   {
     name: "Sarah L.",
     title: "– Exceptional Service & Fair Pricing",
-    image: r1,
+    image: value,
     review: `I was unsure about selling my land, but Land Profits guided me through the process with expert advice and market insights. They offered a fair price and took care of all the paperwork, making the transaction quick and hassle-free. A truly outstanding team!`,
   },
 ];

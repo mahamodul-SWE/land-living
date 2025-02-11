@@ -1,6 +1,7 @@
 
 import bg from "@/assets/images/testimonial-banner-min.jpg"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function ShortReviews() {
 
@@ -63,7 +64,7 @@ export default function ShortReviews() {
             <span className="slider-pagination-item"></span>
             <span className="slider-pagination-item"></span>
           </div>
-          <a href="#" className="load-more ll-btn-primary">See full review</a>
+          <Link href="/reviews" className="load-more ll-btn-primary">See full review</Link>
         </div>
       </div>
     </section>
