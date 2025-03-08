@@ -50,7 +50,7 @@ export default function DevelopmentPage() {
                   <i className="bi bi-card-list"></i> {category.name}
                 </h2>
                 <div className="swiper-container">
-                  <Swiper navigation={true} modules={[Navigation, Autoplay]} autoplay className="swiper-wrapper">
+                  <Swiper navigation={true} modules={[Navigation, Autoplay]} autoplay className="project-slide">
                     {category.images.map((image, index) => (
                       <SwiperSlide key={index} className="swiper-slide">
                         <Image

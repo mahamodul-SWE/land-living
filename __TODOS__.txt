@@ -1,4 +1,3 @@
-TODO: Design hero section like demo
 TODO: Dynamic review section
 TODO: handle form functionality
 TODO: change navigation button of development page

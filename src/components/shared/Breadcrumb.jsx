@@ -11,7 +11,8 @@ export default function Breadcrumb({ title, bgImage }) {
         src={bgImage || bgImageAlt}
         className="breadcrumb-bg"
         placeholder="blur"
-        quality={100}
+        priority
+        quality={70}
         style={{
           zIndex: -1,
           objectFit: "cover",
