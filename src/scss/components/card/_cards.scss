@@ -4,7 +4,7 @@
 .real-estate-card {
   border: 0px solid #e6e6e6;
   // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  // padding: 1.5rem;
   background: transparent;
 
   .card-price {
@@ -14,11 +14,12 @@
   }
 
   .card-title {
-    font-size: 50px;
+    font-size: clamp(28px, 5vw, 50px);
     font-weight: 500;
     max-width: 600px;
     margin-bottom: 0.5rem;
-    .heigh-light{
+
+    .highlight{
       background-color: $primary;
       // color: $white;
       padding: 0.3rem 0.5rem;
@@ -27,8 +28,8 @@
   }
 
   .card-text {
-    font-size: 1.5rem;
-    color: $para-color;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    color: #4A4A4A;
     margin-bottom: 1rem;
   }
 

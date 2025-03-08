@@ -44,9 +44,9 @@ export default function Navbar() {
     <header>
       <nav className="navbar navbar-expand-xl bg-body-tertiary py-0">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <Image src={logo} alt="Logo" className="logo" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

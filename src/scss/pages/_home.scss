@@ -5,13 +5,17 @@
 
 .hero-home {
   height: 80vh;
-  object-fit: cover;
   overflow: hidden;
   position: relative;
   margin-top: 70px;
-  background: linear-gradient(to right, $white, transparent);
+  // background: linear-gradient(to right, $white, transparent);
 
   .slider-progress {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
     .progress-bar {
       background-color: $primary-08;
       height: 5px;
@@ -35,32 +39,24 @@
 
   .hero-content {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    min-width: 350px;
-    background: transparent;
-    // @include breakpoint(desktop1024) {
-    //   left: 60%;
-    //   transform: translate(-50%, -50%);
-    // }
-    // @include breakpoint(desktop1200) {
-    //   left: 65%;
-    //   transform: translate(-50%, -50%);
-    // }
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, $white, transparent);
   }
-
-  .slider-pagination {
+  .swiper-pagination {
     position: absolute;
     bottom: 3rem;
     right: 16%;
+    z-index: 11;
     // transform: translateX(-50%);
     @include breakpoint(desktop1024) {
       left: auto;
       transform: none;
     }
 
-    .slider-pagination-item {
+    .swiper-pagination-bullet {
       margin-right: 10px;
       width: 16px;
       height: 16px;
@@ -75,7 +71,7 @@
       &:last-child {
         margin-right: 0;
       }
-      &.active {
+      &.swiper-pagination-bullet-active {
         background-color: $white;
       }
     }
@@ -270,7 +266,7 @@
       // height: 481px;
       // padding: 20px;
       border-radius: 8px;
-     
+
       i {
         font-size: 40px;
         text-align: center;

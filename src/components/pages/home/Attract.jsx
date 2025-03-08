@@ -21,6 +21,8 @@ export default function Attract() {
           zIndex: -1
         }}
       />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#FF914D] to-[#FFC099] opacity-80"></div>
+
       <div className="container">
         <div className="wrapper-att">
           <div className="content">
