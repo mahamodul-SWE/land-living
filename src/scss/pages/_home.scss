@@ -402,10 +402,10 @@
   .section-bottom {
     display: flex;
     justify-content: space-between;
-    .slider-pagination {
+    .testimonial-pagination {
       display: flex;
       align-items: center;
-      .slider-pagination-item {
+      .swiper-pagination-bullet {
         margin-right: 10px;
         cursor: pointer;
         display: inline-block;
@@ -413,7 +413,7 @@
         aspect-ratio: 1;
         background-color: $primary;
         border-radius: 50%;
-        &.active {
+        &.swiper-pagination-bullet-active {
           border: 2px solid $primary;
           width: 16px;
         }
