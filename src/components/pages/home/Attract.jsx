@@ -19,10 +19,11 @@ export default function Attract() {
         sizes="100vw"
         style={{
           objectFit: 'cover',
+          objectPosition: "50% 70%",
           zIndex: -1
         }}
       />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#FF914D] to-[#FFC099] opacity-80"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#FF914D] to-[#FFC099] opacity-80"></div>
 
       <div className="container">
         <div className="wrapper-att">

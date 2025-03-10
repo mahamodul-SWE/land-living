@@ -71,7 +71,7 @@ export default function Navbar() {
               }
             </ul>
             <div className="d-flex" role="search">
-              <button className="ll-btn-primary" type="submit">Call now</button>
+              <Link href="tel:01625366735" className="ll-btn-primary" >Call now</Link>
             </div>
           </div>
         </div>

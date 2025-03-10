@@ -385,7 +385,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     figure {
       width: 50px;
-      margin: 20 auto;
+      margin: 20px auto !important;
     }
     .user-name {
       color: $heading-color;

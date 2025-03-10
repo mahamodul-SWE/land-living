@@ -16,7 +16,7 @@ export default function Contact() {
             <div className="col-lg-6">
               <form className="contact-form">
                 <div className="mb-3">
-                  <label labelFor="name" className="form-label">
+                  <label htmlFor="name" className="form-label">
                     Name
                   </label>
                   <input
@@ -28,7 +28,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="mb-3">
-                  <label labelFor="email" className="form-label">
+                  <label htmlFor="email" className="form-label">
                     Email
                   </label>
                   <input
@@ -40,7 +40,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="mb-3">
-                  <label labelFor="subject" className="form-label">
+                  <label htmlFor="subject" className="form-label">
                     Subject
                   </label>
                   <input
@@ -52,7 +52,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="mb-3">
-                  <label labelFor="message" className="form-label">
+                  <label htmlFor="message" className="form-label">
                     Message
                   </label>
                   <textarea
@@ -113,7 +113,7 @@ export default function Contact() {
           width="600"
           height="450"
           style={{ border: 0 }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
