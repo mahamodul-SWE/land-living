@@ -55,7 +55,7 @@ export default function HowWeWork() {
       title: "Seamless Transaction & Handover",
       description:
         "We handle all legal processes and documentation, ensuring a smooth and secure transfer of ownership.",
-      iconClass: "bi bi-file-earmark-check", // Legal & transaction completion icon
+      iconClass: "bi bi-file-earmark-check",
     },
   ];
 
