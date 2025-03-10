@@ -8,6 +8,12 @@ const developmentSteps = [
     iconClass: "bi bi-geo-alt"
   },
   {
+    title: "Meetings & Agreements",
+    description:
+      "After assessing the site, we communicate with clients to establish fair agreements. Every detail is discussed and documented, ensuring transparency and trust at every step.",
+    iconClass: "bi bi-people"
+  },
+  {
     title: "Planning & Zoning Approvals",
     description:
       "We assist with securing necessary planning permissions and zoning approvals from local authorities, ensuring full regulatory compliance.",

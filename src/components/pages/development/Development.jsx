@@ -1,7 +1,8 @@
 "use client"
-import image1 from "@/assets/images/slider-1.jpg";
-import image2 from "@/assets/images/slider-2.jpg";
-import image3 from "@/assets/images/slider-3.jpg";
+import image3 from "@/assets/images/Commercial 2.jpg";
+import image2 from "@/assets/images/Commercial.jpg";
+import image1 from "@/assets/images/Commercial.png";
+import Residential from "@/assets/images/Residential.png";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,9 +13,7 @@ const categories = [
   {
     name: "Residential Properties",
     images: [
-      image1,
-      image2,
-      image3,
+      Residential,
     ],
   },
   {
@@ -25,14 +24,7 @@ const categories = [
       image3,
     ],
   },
-  {
-    name: "Industrial Properties",
-    images: [
-      image1,
-      image2,
-      image3,
-    ],
-  },
+
 ];
 
 export default function DevelopmentPage() {
@@ -50,7 +42,11 @@ export default function DevelopmentPage() {
                   <i className="bi bi-card-list"></i> {category.name}
                 </h2>
                 <div className="swiper-container">
-                  <Swiper navigation={true} modules={[Navigation, Autoplay]} autoplay className="project-slide">
+                  <Swiper
+                    navigation={true}
+                    modules={[Navigation, Autoplay]} autoplay
+                    className="project-slide"
+                  >
                     {category.images.map((image, index) => (
                       <SwiperSlide key={index} className="swiper-slide">
                         <Image
