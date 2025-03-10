@@ -75,6 +75,17 @@ export default function About() {
                   <h2 className="mb-3 section-title">Our Commitment</h2>
                   <p className="commitment">
                     <strong>
+                      <u>Maximizing Land Value </u>:{" "}
+                    </strong>
+                    we are committed to ensuring our clients receive the maximum
+                    value for their land. We carefully assess each site,
+                    leveraging market expertise and industry connections to
+                    secure the best possible deal. Our goal is to create a
+                    seamless and rewarding experience tailored to each
+                    landowner&apos;s needs.
+                  </p>
+                  <p className="commitment">
+                    <strong>
                       <u>Client Satisfaction</u> :{" "}
                     </strong>
                     We prioritize client satisfaction by understanding their
@@ -86,17 +97,6 @@ export default function About() {
                     </strong>
                     Our commitment is to provide exceptional, high-quality
                     services with precision and reliability.
-                  </p>
-                  <p className="commitment">
-                    <strong>
-                      <u>Maximizing Land Value </u>:{" "}
-                    </strong>
-                    we are committed to ensuring our clients receive the maximum
-                    value for their land. We carefully assess each site,
-                    leveraging market expertise and industry connections to
-                    secure the best possible deal. Our goal is to create a
-                    seamless and rewarding experience tailored to each
-                    landowner&apos;s needs.
                   </p>
                 </div>
                 {/* <Link href="/about" className="ll-btn-primary">Learn More</Link> */}

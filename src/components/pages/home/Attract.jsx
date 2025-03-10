@@ -1,5 +1,6 @@
 import bg from "@//assets/images/secbg.png"
 import Image from "next/image"
+import Link from "next/link"
 const bgImage = {
   height: "100%",
   zIndex: 0,
@@ -35,7 +36,7 @@ export default function Attract() {
             </p>
           </div>
           <div className="text-end">
-            <button className="ll-btn-primary">Contact us</button>
+            <Link href="/contact" className="ll-btn-primary">Contact us</Link>
           </div>
         </div>
       </div>

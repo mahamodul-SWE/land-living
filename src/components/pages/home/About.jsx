@@ -86,19 +86,20 @@ export default function About() {
             <div>
               <h2 className="mb-3 section-title">Our Commitment</h2>
               <p className="commitment">
-                <strong><u>Client Satisfaction</u> : </strong>
-                We prioritize client satisfaction by understanding their needs
-                and delivering beyond expectations.
-              </p>
-              <p className="commitment">
-                <strong><u>Top-Notch Services</u> : </strong>
-                Our commitment is to provide exceptional, high-quality services with precision and reliability.
-              </p>
-              <p className="commitment">
                 <strong><u>Maximizing Land Value </u>: </strong>
                 we are committed to ensuring our clients receive the maximum value for their land. We carefully assess each site, leveraging market expertise and industry connections to secure the best possible deal. Our goal is to create a seamless and rewarding experience tailored to each landowner's needs.
               </p>
             </div>
+            <p className="commitment">
+              <strong><u>Client Satisfaction</u> : </strong>
+              We prioritize client satisfaction by understanding their needs
+              and delivering beyond expectations.
+            </p>
+            <p className="commitment">
+              <strong><u>Top-Notch Services</u> : </strong>
+              Our commitment is to provide exceptional, high-quality services with precision and reliability.
+            </p>
+
             {/* <Link href="/about" className="ll-btn-primary">Learn More</Link> */}
           </div>
         </div>
