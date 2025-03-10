@@ -1,29 +1,29 @@
 @use "../global" as *;
 @use "../partials" as *;
 
-.contact-wrapper{
+.contact-wrapper {
   padding: 56px 0px;
   @include breakpoint(desktop1200) {
     padding: 100px 0px;
   }
-  .contact-form{
+  .contact-form {
     background-color: #edc56ade;
     padding: 60px 40px;
     border-radius: 8px;
-    .ll-btn-primary{
+    .ll-btn-primary {
       background-color: $white;
-      &:hover{
+      &:hover {
         background-color: $white-03;
       }
     }
   }
-.contact-info-text{
-  margin-bottom: 20px;
-}
-  .contact-item{
+  .contact-info-text {
+    margin-bottom: 20px;
+  }
+  .contact-item {
     margin-bottom: 10px;
     padding: 10px;
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
     background-color: #222838;
@@ -31,22 +31,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .icon{
+    .icon {
       font-size: 50px;
       color: $primary;
     }
-    .title{
+    .title {
       color: $white-01;
       font-size: 26px;
       margin-bottom: 10px;
-
     }
-    p{
+    .text {
+      color: $white-02;
+      font-size: 18px;
+    }
+    p,
+    address {
       color: $white-02;
       font-size: 16px;
       margin-bottom: 10px;
     }
-    a{
+    a {
       color: $white-01;
     }
   }

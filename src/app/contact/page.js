@@ -1,5 +1,6 @@
 import ContactForm from "@/components/pages/contact/ContactForm";
 import Breadcrumb from "@/components/shared/Breadcrumb";
+import Link from "next/link";
 
 export const metadata = {
   title: "Contact Us || Land Living",
@@ -29,9 +30,10 @@ export default function Contact() {
                       <i className="bi bi-geo-alt"></i>
                     </span>
                     <h4 className="title">Our main office</h4>
-                    <p className="text text-start">
-                      123, Road No. 10, Dhanmondi, Dhaka-1209
-                    </p>
+                    <address className="text text-start">
+                      Hatch Gate Inn,The Hatch, Burghfield, Reading, Berkshire,
+                      RG30 3TH.
+                    </address>
                   </div>
                   <div className="contact-item">
                     <span className="icon">
@@ -39,7 +41,9 @@ export default function Contact() {
                     </span>
                     <h4 className="title">subject address</h4>
                     <span className="text text-start">
-                      <a href="mailto:lorem@gmail.com">yourname@email.com </a>
+                      <Link href="mailto:info@Landandbuild.uk">
+                        info@Landandbuild.uk
+                      </Link>
                     </span>
                   </div>
                   <div className="contact-item">
@@ -48,7 +52,12 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Call us</h4>
                     <span className="text text-start">
-                      <a href="call:+8801753674485">+8801753674485</a>
+                      Phone:{" "}
+                      <Link href="call:+447738940597">+447738940597</Link>
+                    </span>
+                    <span className="text text-start">
+                      Telephone:{" "}
+                      <Link href="tel:+441183483304">+441183483304</Link>
                     </span>
                   </div>
                 </div>
@@ -58,7 +67,7 @@ export default function Contact() {
         </div>
         {/* <!-- map --> */}
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.97303532383!2d90.33728800877181!3d23.78081863542279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1737796722221!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.5260098091735!2d-1.0414587000000002!3d51.4117634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769ea73aefc08b%3A0xfb3c7001b821f0b5!2sThe%20Hatch%20Gate%20Inn!5e0!3m2!1sen!2sbd!4v1741641472981!5m2!1sen!2sbd"
           width="600"
           height="450"
           style={{ border: 0 }}
