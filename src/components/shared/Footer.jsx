@@ -126,7 +126,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="bottom-wrapper">
-            <p>© All rights reserved by Land and Leaving 2024</p>
+            <p>© All rights reserved by Land and Build 2024</p>
 
           </div>
         </div>

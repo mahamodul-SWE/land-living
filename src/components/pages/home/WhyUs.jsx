@@ -55,7 +55,7 @@ export default function WhyUs() {
       <div className="container">
         <div className="text-center">
           <h3 className="section-title">
-            Why Land & Living
+            Why Land & Build
           </h3>
         </div>
         <div className="our_team_container">

@@ -19,7 +19,7 @@ const reviews = [
     name: "John M.",
     title: "– Smooth Land Sale Experience",
     image: land,
-    review: `Selling my land to Land & Living was a fantastic experience. Their team provided a fair offer, and the entire process was smooth and transparent. I was kept informed every step of the way, and I received payment much quicker than I expected. Highly recommend their services!`,
+    review: `Selling my land to Land & Build was a fantastic experience. Their team provided a fair offer, and the entire process was smooth and transparent. I was kept informed every step of the way, and I received payment much quicker than I expected. Highly recommend their services!`,
   },
   {
     name: "James R.",
@@ -35,13 +35,13 @@ const reviews = [
     name: " Emily R.",
     title: "– Exceptional Development Service",
     image: houseDevelopment,
-    review: `Land & Living helped turn my land into a thriving residential development. From planning and design to construction, they handled everything with professionalism and attention to detail. The end result exceeded my expectations, and I couldn’t be happier with the quality of the development. A truly top-notch team!" Also, they hand over the project in the promised time.`,
+    review: `Land & Build helped turn my land into a thriving residential development. From planning and design to construction, they handled everything with professionalism and attention to detail. The end result exceeded my expectations, and I couldn’t be happier with the quality of the development. A truly top-notch team!" Also, they hand over the project in the promised time.`,
   },
   {
     name: " Michael D",
     title: "– Effortless and Transparent Process",
     image: paper,
-    review: `I was impressed by the smooth and efficient process  Land & Living offered. They took care of all the paperwork and approvals without any hassle, making the entire transaction stress-free. Their team is not only professional but also very transparent, which made the experience enjoyable. Great service all around!`,
+    review: `I was impressed by the smooth and efficient process  Land & Build offered. They took care of all the paperwork and approvals without any hassle, making the entire transaction stress-free. Their team is not only professional but also very transparent, which made the experience enjoyable. Great service all around!`,
   },
   {
     name: "Sarah L.",

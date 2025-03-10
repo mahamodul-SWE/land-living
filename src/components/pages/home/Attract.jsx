@@ -28,7 +28,7 @@ export default function Attract() {
           <div className="content">
             <h2 className="section-title">We are here for you</h2>
             <p>
-              At Land & Living, we fulfill your land's desired values, Whether you're a landowner or investor.
+              At Land & Build, we fulfill your land's desired values, Whether you're a landowner or investor.
             </p>
             <p>
               We also specialize in developing homes, ensuring a seamless process from city approvals to construction, delivering quality and compliance at every step.

@@ -15,7 +15,7 @@ export default function HowWeWork() {
     {
       title: "Unlock Maximum Land Value",
       description:
-        "At Land & Living, we specialize in identifying and acquiring prime land opportunities. Our experienced team evaluates each plot based on location, potential, and market trends to ensure maximum value. We offer a smooth, transparent process, from initial consultation to final transaction, making sure that landowners receive the best offer for their property. Whether you're looking to sell land with or without planning permission, we help guide you through every step with confidence. Just reach out to us, and we’ll handle the rest.",
+        "At Land & Build, we specialize in identifying and acquiring prime land opportunities. Our experienced team evaluates each plot based on location, potential, and market trends to ensure maximum value. We offer a smooth, transparent process, from initial consultation to final transaction, making sure that landowners receive the best offer for their property. Whether you're looking to sell land with or without planning permission, we help guide you through every step with confidence. Just reach out to us, and we’ll handle the rest.",
       image: unlock,
     },
     {

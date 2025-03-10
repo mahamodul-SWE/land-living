@@ -6,7 +6,7 @@ import Image from "next/image";
 export const metadata = {
   title: "About Us || Land Living",
   description:
-    "Discover the story behind Land & Living, a leading property management company specializing in land acquisition, development, and securing planning permissions.",
+    "Discover the story behind Land & Build, a leading property management company specializing in land acquisition, development, and securing planning permissions.",
 };
 export default function About() {
   return (
@@ -19,19 +19,19 @@ export default function About() {
               <div className="col">
                 <h2 className="section-title">Mission And Vision</h2>
                 <p>
-                  At Land & Living, we specialize in unlocking the full
-                  potential of your land, ensuring you get the best value for``
-                  your property. Whether you’re looking to sell, explore
-                  development opportunities, or secure planning permissions, our
-                  expert team provides a smooth and efficient process every step
-                  of the way. we expertised in land acquisition, property
-                  development, and creating sustainable living spaces. Our team
-                  of experts combines years of industry experience, in-depth
-                  market knowledge, and a passion for transforming land into
-                  thriving communities. Whether you are a landowner looking to
-                  sell your property, an investor seeking opportunities, or
-                  someone with a development vision, we’re here to guide you
-                  through every step of the process.
+                  At Land & Build, we specialize in unlocking the full potential
+                  of your land, ensuring you get the best value for`` your
+                  property. Whether you’re looking to sell, explore development
+                  opportunities, or secure planning permissions, our expert team
+                  provides a smooth and efficient process every step of the way.
+                  we expertised in land acquisition, property development, and
+                  creating sustainable living spaces. Our team of experts
+                  combines years of industry experience, in-depth market
+                  knowledge, and a passion for transforming land into thriving
+                  communities. Whether you are a landowner looking to sell your
+                  property, an investor seeking opportunities, or someone with a
+                  development vision, we’re here to guide you through every step
+                  of the process.
                 </p>
                 <p>
                   our approach is simple: Maximize Value, Deliver Quality, and
@@ -169,7 +169,7 @@ export default function About() {
               <div className="col p-0">
                 <div className="statement">
                   <p>
-                    At Land & Living, we are committed to give best value to
+                    At Land & Build, we are committed to give best value to
                     landownership into lasting opportunities. Our mission is to
                     create high-quality developments that enhance communities
                     and stand the test of time. Let us help you unlock the true

@@ -38,7 +38,7 @@ export default function About() {
           <div className="col-xl-6">
             <h2 className="section-title">In Search of Land</h2>
             <p>
-              Land & Living is always seeking new land opportunities. We specialize in acquiring potential land deals without planning permission in the South East of England but also consider sites with planning approval for development and construction. No project is too big or small—if you have land or a site and would like a free, no-obligation assessment, feel free to reach out. We’d love to hear from you!
+              Land & Build is always seeking new land opportunities. We specialize in acquiring potential land deals without planning permission in the South East of England but also consider sites with planning approval for development and construction. No project is too big or small—if you have land or a site and would like a free, no-obligation assessment, feel free to reach out. We’d love to hear from you!
 
             </p>
             <p>
@@ -62,7 +62,7 @@ export default function About() {
           <div className="col-xl-6">
             <h2 className="section-title">Mission and vision</h2>
             <p>
-              At Land & Living, our vision is to provide exceptional service by prioritizing strong relationships and community impact. We carefully assess each plot’s suitability, considering landowners' goals and the broader community’s needs.
+              At Land & Build, our vision is to provide exceptional service by prioritizing strong relationships and community impact. We carefully assess each plot’s suitability, considering landowners' goals and the broader community’s needs.
             </p>
             <p>
               With a trusted network across the property development industry, we leverage deep market insights to evaluate every site effectively. Our commitment is to collaborate closely with landowners and agents across the UK to create sustainable developments where people want to live.
