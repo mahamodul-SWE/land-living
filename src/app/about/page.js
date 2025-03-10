@@ -20,18 +20,18 @@ export default function About() {
                 <h2 className="section-title">Mission And Vision</h2>
                 <p>
                   At Land & Build, we specialize in unlocking the full potential
-                  of your land, ensuring you get the best value for your
-                  property. Whether you’re looking to sell, explore development
-                  opportunities, or secure planning permissions, our expert team
-                  provides a smooth and efficient process every step of the way.
-                  we expertised in land acquisition, property development, and
-                  creating sustainable living spaces. Our team of experts
-                  combines years of industry experience, in-depth market
-                  knowledge, and a passion for transforming land into thriving
-                  communities. Whether you are a landowner looking to sell your
-                  property, an investor seeking opportunities, or someone with a
-                  development vision, we’re here to guide you through every step
-                  of the process.
+                  of your land, ensuring you get the best value for{" "}
+                  <strong>"Your Property"</strong>. Whether you’re looking to
+                  sell, explore development opportunities, or secure planning
+                  permissions, our expert team provides a smooth and efficient
+                  process every step of the way. we expertised in land
+                  acquisition, property development, and creating sustainable
+                  living spaces. Our team of experts combines years of industry
+                  experience, in-depth market knowledge, and a passion for
+                  transforming land into thriving communities. Whether you are a
+                  landowner looking to sell your property, an investor seeking
+                  opportunities, or someone with a development vision, we’re
+                  here to guide you through every step of the process.
                 </p>
                 <p>
                   our approach is simple: Maximize Value, Deliver Quality, and
