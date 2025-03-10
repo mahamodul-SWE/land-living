@@ -20,7 +20,7 @@ export default function About() {
                 <h2 className="section-title">Mission And Vision</h2>
                 <p>
                   At Land & Build, we specialize in unlocking the full potential
-                  of your land, ensuring you get the best value for`` your
+                  of your land, ensuring you get the best value for your
                   property. Whether you’re looking to sell, explore development
                   opportunities, or secure planning permissions, our expert team
                   provides a smooth and efficient process every step of the way.
@@ -118,7 +118,7 @@ export default function About() {
                 <div className="info-item">
                   <i className="bi bi-pin-map-fill icon"></i>
                   <div>
-                    <h5>Land Acquisition and Sale</h5>
+                    <h5>Land Buy and Sale</h5>
                     <p>
                       Assisting landowners in selling their land at the best
                       possible value through a smooth, transparent, and
