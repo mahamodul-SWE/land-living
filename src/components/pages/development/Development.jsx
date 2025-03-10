@@ -3,6 +3,14 @@ import image3 from "@/assets/images/Commercial 2.jpg";
 import image2 from "@/assets/images/Commercial.jpg";
 import image1 from "@/assets/images/Commercial.png";
 import Residential from "@/assets/images/Residential.png";
+
+import image4 from "@/assets/images/slider-1.jpg";
+ 
+
+import image5 from "@/assets/images/slider-2.jpg";
+ 
+
+import image6 from "@/assets/images/slider-3.jpg";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -14,6 +22,9 @@ const categories = [
     name: "Residential Properties",
     images: [
       Residential,
+      image4,
+      image5,
+      image6,
     ],
   },
   {

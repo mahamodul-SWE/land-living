@@ -51,14 +51,16 @@ export default function Contact() {
                       <i className="bi bi-telephone-outbound"></i>
                     </span>
                     <h4 className="title">Call us</h4>
-                    <span className="text text-start">
-                      Phone:{" "}
-                      <Link href="call:+447738940597">+447738940597</Link>
-                    </span>
-                    <span className="text text-start">
-                      Telephone:{" "}
-                      <Link href="tel:+441183483304">+441183483304</Link>
-                    </span>
+                    <div className="d-flex gap-3">
+                      <span className="text text-start">
+                        Phone:{" "}
+                        <Link href="call:+447738940597">+447738940597</Link>
+                      </span>
+                      <span className="text text-start">
+                        Telephone:{" "}
+                        <Link href="tel:+441183483304">+441183483304</Link>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
