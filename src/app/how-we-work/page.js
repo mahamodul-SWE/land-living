@@ -245,9 +245,18 @@ export default function HowWeWork() {
           >
             {developmentSteps.map((step, index) => (
               <div className="step-card w-auto">
-                <h2 className="step-title fs-5">
-                  <i className={step.iconClass + " icon"}></i> {step.title}
-                </h2>
+                <div
+                  className="text-primary fs-2 fw-bold d-flex align-items-center justify-content-center mb-4"
+                  style={{
+                    background: "rgba(255, 181, 11, 0.3) ",
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "50%",
+                  }}
+                >
+                  <span>{index + 1}</span>
+                </div>
+                <h2 className="step-title fs-5">{step.title}</h2>
                 <p className="step-description">{step.description}</p>
               </div>
             ))}
