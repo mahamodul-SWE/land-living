@@ -234,7 +234,7 @@ export default function HowWeWork() {
       </section> */}
 
       <div className="house-development-container">
-        <h1 className="title">For land Buy and Sale</h1>
+        <h1 className="section-title title">For land Buy and Sale</h1>
         <div className="container">
           <div
             style={{
@@ -256,6 +256,11 @@ export default function HowWeWork() {
       </div>
 
       <section className="step-container-sec container">
+        <div className="text-center">
+          <h2 className="section-title text-center mb-4">
+            Our Process From Concept to Completion for Development
+          </h2>
+        </div>
         <div
           className="row row-cols-1 row-cols-lg-3 "
           style={{ height: "fit-content" }}

@@ -39,7 +39,7 @@ export default function Contact() {
                     <span className="icon">
                       <i className="bi bi-envelope-at"></i>
                     </span>
-                    <h4 className="title">subject address</h4>
+                    <h4 className="title">Email Us</h4>
                     <span className="text text-start">
                       <Link href="mailto:info@Landandbuild.uk">
                         info@Landandbuild.uk
