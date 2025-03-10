@@ -1,4 +1,4 @@
-import about from "@/assets/images/about-1.jpg";
+import about from "@/assets/images/About_us-1.png";
 import commitment from "@/assets/images/commitment.jpg";
 import inSearch from "@/assets/images/inSearch.jpg";
 import mission from "@/assets/images/mission.jpg";

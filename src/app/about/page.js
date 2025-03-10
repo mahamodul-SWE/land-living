@@ -116,7 +116,7 @@ export default function About() {
               </div>
               <div className="col-lg-6 info-box">
                 <div className="info-item">
-                  <i class="bi bi-pin-map-fill icon"></i>
+                  <i className="bi bi-pin-map-fill icon"></i>
                   <div>
                     <h5>Land Acquisition and Sale</h5>
                     <p>
@@ -149,7 +149,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="info-item">
-                  <i class="bi bi-microsoft-teams icon"></i>
+                  <i className="bi bi-microsoft-teams icon"></i>
                   <div>
                     <h5>Construction Management</h5>
                     <p>
