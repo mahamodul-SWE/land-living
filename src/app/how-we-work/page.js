@@ -32,7 +32,32 @@ export default function HowWeWork() {
     },
   ];
 
-  // console.log(services);
+  const developmentSteps = [
+    {
+      title: "Making Contact with Clients",
+      description:
+        "We begin by understanding your needs and assessing the land’s potential, ensuring the best possible value for buyers and sellers.",
+      iconClass: "bi bi-telephone-inbound", // Contact-related icon
+    },
+    {
+      title: "Market Research & Pricing",
+      description:
+        "Our team analyzes market trends and land value to determine competitive pricing and investment opportunities.",
+      iconClass: "bi bi-graph-up-arrow", // Market research & growth-related icon
+    },
+    {
+      title: "Negotiation & Agreement",
+      description:
+        "We facilitate transparent discussions between buyers and sellers, ensuring fair agreements that align with both parties’ goals.",
+      iconClass: "bi bi-hand-thumbs-up",
+    },
+    {
+      title: "Seamless Transaction & Handover",
+      description:
+        "We handle all legal processes and documentation, ensuring a smooth and secure transfer of ownership.",
+      iconClass: "bi bi-file-earmark-check", // Legal & transaction completion icon
+    },
+  ];
 
   const steps = [
     {
@@ -87,7 +112,8 @@ export default function HowWeWork() {
       <section className="about-section py-5 howWorkPage">
         <div className="text-center mb-4">
           <h2 className="section-title">
-            Our Seamless Process: Land Acquisition, Development, and Approvals
+            Our Seamless Process: From Land Buy & Sale to Development, and
+            Approvals
           </h2>
         </div>
         <div className="container">
@@ -119,11 +145,19 @@ export default function HowWeWork() {
       <section>
         <div className="container howWork">
           <div className="content">
-            <h2 className="title">How We Work</h2>
+            <h2 className="title">For Land Sale</h2>
             <p>
-              Our process begins with understanding your needs and goals. We
-              then work closely with you to develop a detailed project plan,
-              ensuring that everything aligns with your vision and expectations.
+              Our process starts with understanding your land’s potential and
+              your selling goals. We evaluate the market, provide expert
+              insights, and ensure a smooth transaction that maximizes your
+              property's value.
+            </p>
+            <h2 className="title mt-4">For House Development</h2>
+            <p>
+              We work closely with you to design and plan your dream home,
+              considering every detail from approvals to construction. Our team
+              ensures a seamless process, delivering a high-quality,
+              well-planned development tailored to your vision.
             </p>
           </div>
         </div>
@@ -199,14 +233,33 @@ export default function HowWeWork() {
         </div>
       </section> */}
 
+      <div className="house-development-container">
+        <h1 className="title">For land Buy and Sale</h1>
+        <div className="container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+              gap: "16px",
+            }}
+          >
+            {developmentSteps.map((step, index) => (
+              <div className="step-card w-auto">
+                <h2 className="step-title fs-5">
+                  <i className={step.iconClass + " icon"}></i> {step.title}
+                </h2>
+                <p className="step-description">{step.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <section className="step-container-sec container">
         <div
           className="row row-cols-1 row-cols-lg-3 "
           style={{ height: "fit-content" }}
         >
-          {/* <!-- Step 1 --> */}
-
-          {/* <!-- Step 2 --> */}
           {steps?.map((step, ind) => (
             <div
               key={step.color}
