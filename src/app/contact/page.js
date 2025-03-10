@@ -1,3 +1,4 @@
+import ContactForm from "@/components/pages/contact/ContactForm";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
 export const metadata = {
@@ -14,59 +15,7 @@ export default function Contact() {
         <div className="container contact-wrapper">
           <div className="row gap-2 flex-column-reverse flex-lg-row flex-lg-nowrap">
             <div className="col-lg-6">
-              <form className="contact-form">
-                <div className="mb-3">
-                  <label htmlFor="name" className="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="email" className="form-label">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Email Address"
-                    id="email"
-                    required
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="subject" className="form-label">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Subject"
-                    id="subject"
-                    required
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="message" className="form-label">
-                    Message
-                  </label>
-                  <textarea
-                    className="form-control"
-                    id="message"
-                    rows="3"
-                    placeholder="Your Message Here"
-                    required
-                  ></textarea>
-                </div>
-                <button type="submit" className="ll-btn-primary">
-                  Submit
-                </button>
-              </form>
+              <ContactForm />
             </div>
             <div className="col-lg-6">
               <div className="contact-info">
