@@ -1,5 +1,6 @@
 "use client";
 
+import slider3 from "@/assets/images/approval_2.jpg";
 import slider1 from "@/assets/images/Hero-land-1.jpg";
 import slider2 from "@/assets/images/hero-land-2.jpeg";
 import slider4 from "@/assets/images/hero-slider-2.jpg";
@@ -26,7 +27,8 @@ const sliders = [
     />,
     title: (
       <>
-        Sell Your land With <span className="highlight">maximized value.</span>
+        Sell Your land With <br />
+        <span className="highlight">maximized value.</span>
       </>
     ),
     description: <>
@@ -50,11 +52,12 @@ const sliders = [
     />,
     title: (
       <>
-        Build Your <span className="highlight">Dream Home</span> <br />
-        Reach Us, and we will do the rest
+        Seamless  <span className="highlight">Land Transactions</span>
       </>
     ),
-    description: "",
+    description: <>
+      Experience a hassle-free buying and selling process with our expert guidance. We ensure smooth, transparent, and secure land transactions, maximizing value for both buyers and sellers
+    </>,
     caption: `Amazing Street View`,
   },
 
@@ -66,10 +69,10 @@ const sliders = [
       quality={80} // Reduced from 100 for performance
       placeholder="blur"
       priority
-    style={{
-      objectFit: "cover",
-      objectPosition: "50% 80%"
-    }}
+      style={{
+        objectFit: "cover",
+        objectPosition: "50% 80%"
+      }}
     />,
     title: (
       <>
@@ -77,7 +80,25 @@ const sliders = [
         Reach Us, and we will do the rest
       </>
     ),
-    description: "",
+    description: " From planning to construction, we handle every step of your home development journey. Trust us to create a seamless, hassle-free experience tailored to your vision.",
+    caption: `Beautiful Lake View`,
+  },
+  {
+    id: "hero-slide-4",
+    image: <Image
+      src={slider3}
+      alt="placeholder"
+      quality={80} // Reduced from 100 for performance
+      placeholder="blur"
+      priority
+
+    />,
+    title: (
+      <>
+        Hassle-Free  <span className="highlight">Permissions & Approvals</span>
+      </>
+    ),
+    description: "We manage the entire approval process, securing permits and meeting all legal requirements for your project. Let us handle the paperwork while you focus on your vision.",
     caption: `Beautiful Lake View`,
   },
 ];
@@ -95,7 +116,7 @@ export default function Hero() {
   return (
     <Swiper
       spaceBetween={30}
-      // autoplay={{ delay: 4000, disableOnInteraction: false }}
+      autoplay={{ delay: 4000, disableOnInteraction: false }}
       pagination={{
         clickable: true,
 

@@ -17,9 +17,10 @@
     font-size: clamp(28px, 5vw, 50px);
     font-weight: 500;
     max-width: 600px;
+    min-width: fit-content;
     margin-bottom: 1rem;
 
-    .highlight{
+    .highlight {
       background-color: $primary;
       // color: $white;
       padding: 0.3rem 0.5rem;
@@ -29,8 +30,10 @@
 
   .card-text {
     font-size: clamp(1rem, 5vw, 1.2rem);
-    color: #4A4A4A;
+    color: #4a4a4a;
     margin-bottom: 1rem;
+    max-width: 600px;
+    // min-width: fit-content;
   }
 
   .card-footer {
@@ -77,5 +80,3 @@
     }
   }
 }
-
-
