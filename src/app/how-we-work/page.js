@@ -262,7 +262,7 @@ export default function HowWeWork() {
               </div>
             ))}
           </div>
-          <div className="mt-4">
+          <div className="mt-5">
             <Link href="/contact" className="ll-btn-primary">
               Get Started
             </Link>
@@ -270,7 +270,7 @@ export default function HowWeWork() {
         </div>
       </div>
 
-      <section className="step-container-sec container">
+      <section className="step-container-sec container ">
         <div className="text-center">
           <h2 className="section-title text-center mb-4">
             Our Process From Concept to Completion for Development
@@ -300,12 +300,12 @@ export default function HowWeWork() {
             </div>
           ))}
         </div>
+        <div className="mt-5 text-center">
+          <Link href="/contact" className="ll-btn-primary">
+            Get Started
+          </Link>
+        </div>
       </section>
-      <div className=" mb-5 text-center">
-        <Link href="/contact" className="ll-btn-primary">
-          Get Started
-        </Link>
-      </div>
     </>
   );
 }

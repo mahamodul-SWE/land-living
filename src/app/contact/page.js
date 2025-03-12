@@ -42,7 +42,7 @@ export default function Contact() {
                     <h4 className="title">Email Us</h4>
                     <span className="text text-start">
                       <Link href="mailto:info@Landandbuild.uk">
-                        info@Landandbuild.uk
+                        info@landandbuild.uk
                       </Link>
                     </span>
                   </div>
