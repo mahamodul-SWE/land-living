@@ -20,7 +20,7 @@ export default function About() {
       ),
       link: "/about",
       linkText: "Learn More",
-      reverse: false, 
+      reverse: false,
     },
     {
       id: "about-sec-2",
@@ -30,17 +30,17 @@ export default function About() {
       content: (
         <>
           <p>
-            Land & Build is always seeking new land opportunities. We specialize in acquiring potential land deals without planning permission in the South East of England but also consider sites with planning approval for development and construction. No project is too big or small—if you have land or a site and would like a free, no-obligation assessment, feel free to reach out. We’d love to hear from you!
+            Looking to sell your land? We make the process simple, transparent, and rewarding. For landowners, we ensure maximum value by providing fair offers and a hassle-free selling experience. For buyers, we help identify the perfect plot for investment or development, backed by expert market analysis and competitive pricing. Our team handles all legal paperwork, due diligence, and negotiations, ensuring a smooth transaction from start to finish.
           </p>
           <p>
-            With a trusted network across the property development industry, we leverage deep market insights to evaluate every site effectively. Our commitment is to collaborate closely with landowners and agents across the UK to create sustainable developments where people want to live.
+            With our strong industry network, we connect sellers with the right buyers with prime opportunities.
           </p>
           <p>
             We work diligently with vendors to maximize land value while tailoring transactions to align with their unique needs and aspirations.
           </p>
         </>
       ),
-      reverse: true, 
+      reverse: true,
     },
     {
       id: "about-sec-3",
@@ -49,13 +49,13 @@ export default function About() {
       title: "Mission and Vision",
       content: (
         <>
-          <p>
-            At Land & Build, our vision is to provide exceptional service by prioritizing strong relationships and community impact. We carefully assess each plot’s suitability, considering landowners' goals and the broader community’s needs.
+          <p className="mb-3">
+            At <strong>Land & Build</strong>, our mission is to provide seamless, transparent, and value-driven land buying and selling services. We strive to maximize opportunities for landowners and investors by offering expert guidance, fair valuations, and efficient transactions. When assessing land suitability, we consider the owner’s goals and community impact to ensure responsible and beneficial development.
           </p>
-          <p>
-            With a trusted network across the property development industry, we leverage deep market insights to evaluate every site effectively. Our commitment is to collaborate closely with landowners and agents across the UK to create sustainable developments where people want to live.
+          <p className="mb-3">
+            Our vision is to lead in land acquisition, sales, and development, bridging landowners and developers with integrity and innovation. We create sustainable spaces where people can live, work, and thrive.
           </p>
-          <p>
+          <p className="mb-3">
             We work diligently with vendors to maximize land value while tailoring transactions to align with their unique needs and aspirations.
           </p>
         </>
@@ -83,7 +83,7 @@ export default function About() {
           </p>
         </>
       ),
-      reverse: true, 
+      reverse: true,
     },
   ];
 

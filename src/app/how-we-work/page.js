@@ -4,6 +4,7 @@ import transform from "@/assets/images/transform.jpg";
 import unlock from "@/assets/images/unlock.jpg";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "How We Work || Land Living",
@@ -150,7 +151,7 @@ export default function HowWeWork() {
               Our process starts with understanding your land’s potential and
               your selling goals. We evaluate the market, provide expert
               insights, and ensure a smooth transaction that maximizes your
-              property's value.
+              property&apos;s value.
             </p>
             <h2 className="title mt-4">For House Development</h2>
             <p>
@@ -244,7 +245,7 @@ export default function HowWeWork() {
             }}
           >
             {developmentSteps.map((step, index) => (
-              <div className="step-card w-auto">
+              <div key={step.title} className="step-card w-auto">
                 <div
                   className="text-primary fs-2 fw-bold d-flex align-items-center justify-content-center mb-4"
                   style={{
@@ -260,6 +261,11 @@ export default function HowWeWork() {
                 <p className="step-description">{step.description}</p>
               </div>
             ))}
+          </div>
+          <div className="mt-4">
+            <Link href="/contact" className="ll-btn-primary">
+              Get Started
+            </Link>
           </div>
         </div>
       </div>
@@ -295,6 +301,11 @@ export default function HowWeWork() {
           ))}
         </div>
       </section>
+      <div className=" mb-5 text-center">
+        <Link href="/contact" className="ll-btn-primary">
+          Get Started
+        </Link>
+      </div>
     </>
   );
 }
