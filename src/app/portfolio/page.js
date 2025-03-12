@@ -1,14 +1,14 @@
+import product2 from "@/assets/images/Port-land-1.png";
+import product4 from "@/assets/images/Port-land-2.png";
+import product5 from "@/assets/images/Port-land-3.png";
 import product1 from "@/assets/images/product1.png";
-import product2 from "@/assets/images/Product2.png";
-import product4 from "@/assets/images/product4.png";
-import product5 from "@/assets/images/product5.png";
 import product6 from "@/assets/images/product6.png";
 import product3 from "@/assets/images/project3.png";
 import PortfolioItem from "@/components/pages/portfolio/PortfolioItem";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
 export const metadata = {
-  title: "Portfolio || Land Living",
+  title: "Portfolio || Land & Build",
   description:
     "Discover our portfolio showcasing - successful land acquisitions and transformative developments. We bring visionary projects to life with precision and expertise. with a focus on quality, sustainability, and community growth.",
 };
@@ -16,36 +16,39 @@ export const metadata = {
 export default function Portfolio() {
   const products = [
     {
-      title: "Premium Product 1",
+      title: "Urban Elegance",
       description:
-        "High-quality and durable product designed for modern needs.",
+        "A modern city residence featuring stylish interiors and high-end finishes, perfect for contemporary living.",
       image: product1,
     },
     {
-      title: "Luxury Product 2",
-      description: "A stylish and elegant product perfect for premium users.",
+      title: "Prime Residential Spot",
+      description:
+        "Nestled in a well-developed community, this land offers the perfect foundation for a modern home.",
       image: product2,
     },
     {
-      title: "Innovative Product 3",
-      description: "A state-of-the-art product with advanced features.",
+      title: "Suburban Comfort",
+      description:
+        "A well-planned townhouse community with green spaces, ideal for families seeking a peaceful and connected lifestyle.",
       image: product3,
     },
     {
-      title: "Classic Product 4",
-      description: "A timeless piece that blends tradition with technology.",
+      title: "Scenic Countryside Retreat",
+      description:
+        "Expansive green fields with peaceful surroundings make this an ideal choice for rural living.",
       image: product4,
     },
     {
-      title: "Eco-Friendly Product 5",
+      title: "Elevated Investment Opportunity",
       description:
-        "Sustainable and environment-friendly, built for a better future.",
+        "A well-maintained plot with breathtaking views, ready for a dream home or future development.",
       image: product5,
     },
     {
-      title: "Smart Product 6",
+      title: "Scenic Retreat",
       description:
-        "A next-generation smart device with cutting-edge technology.",
+        "Cozy wooden chalets set in a lush natural landscape, offering a perfect getaway with breathtaking views.",
       image: product6,
     },
   ];

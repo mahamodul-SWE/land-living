@@ -44,8 +44,15 @@ export default function PortfolioItem({ product }) {
         </div>
       </div>
 
-      <div className="project-card">
-        <Image src={product.image} alt="Project 1" />
+      <div className="project-card relative">
+        <Image
+          src={product.image}
+          alt="Project 1"
+          style={{
+            objectFit: "cover",
+          }}
+          fill
+        />
         <div className="project-info align-items-start text-start">
           <h3>{product.title}</h3>
           <p>{product.description}</p>
@@ -53,7 +60,7 @@ export default function PortfolioItem({ product }) {
             data-bs-toggle="modal"
             data-bs-target={`#${product.title.split(" ").join("-")}`}
             className="view-project-btn"
-           
+
           >
             View Project
           </button>

@@ -4,7 +4,7 @@ import HouseDevelopmentProcess from "@/components/pages/development/HouseDevelop
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
 export const metadata = {
-  title: "Development || Land Living",
+  title: "Development || Land & Build",
   description:
     "Discover our latest developments, including commercial, residential, and commercial land projects.",
 };

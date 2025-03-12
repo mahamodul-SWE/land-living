@@ -9,7 +9,7 @@ import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Review || Land Living",
+  title: "Review || Land & Build",
   description:
     "We are a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
 };

@@ -3,9 +3,9 @@ import Breadcrumb from "@/components/shared/Breadcrumb";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Contact Us || Land Living",
+  title: "Contact Us || Land & Build",
   description:
-    "Contact Land Living for any inquiries, questions, or concerns. We're here to help you find the perfect solution for your dream home.",
+    "Contact Land & Build for any inquiries, questions, or concerns. We're here to help you find the perfect solution for your dream home.",
 };
 
 export default function Contact() {
@@ -41,7 +41,7 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Email Us</h4>
                     <span className="text text-start">
-                      <Link href="mailto:info@Landandbuild.uk">
+                      <Link href="mailto:info@landandbuild.uk">
                         info@landandbuild.uk
                       </Link>
                     </span>

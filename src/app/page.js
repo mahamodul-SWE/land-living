@@ -8,9 +8,9 @@ import ShortReviews from "@/components/pages/home/ShortReviews";
 import WhyUs from "@/components/pages/home/WhyUs";
 
 export const metadata = {
-  title: "Home || Land Living",
+  title: "Home || Land & Build",
   description:
-    "Welcome to Land Living, a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
+    "Welcome to Land & Build, a dynamic, innovative, and dedicated agency that specializes in providing the best possible solutions to our clients real estate needs. Our team is made up of experts in various fields, including architecture, interior design, and property management.",
 };
 
 export default function Home() {

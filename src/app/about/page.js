@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/shared/Breadcrumb";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About Us || Land Living",
+  title: "About Us || Land & Build",
   description:
     "Discover the story behind Land & Build, a leading property management company specializing in land acquisition, development, and securing planning permissions.",
 };

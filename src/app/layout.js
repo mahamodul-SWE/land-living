@@ -20,9 +20,9 @@ export const playball = Playball({
 });
 
 export const metadata = {
-  title: "Land Living",
+  title: "Land & Build",
   description:
-    "Land Living is a unique, modern, and sustainable development project that aims to create a beautiful, harmonious, and peaceful living environment for residents in the city of Dhaka.",
+    "Land & Build is a unique, modern, and sustainable development project that aims to create a beautiful, harmonious, and peaceful living environment for residents in the city of Dhaka.",
 };
 
 export default function RootLayout({ children }) {

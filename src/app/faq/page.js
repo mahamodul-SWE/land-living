@@ -2,9 +2,9 @@ import bannerImg from "@/assets/images/Feb-Business_9.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "FAQ || Land Living",
+  title: "FAQ || Land & Build",
   description:
-    "Frequently asked questions about Land Living. We're here to help you find the information you need.",
+    "Frequently asked questions about Land & Build. We're here to help you find the information you need.",
 };
 
 const faqData = [
@@ -17,7 +17,7 @@ const faqData = [
           "Our team provides a free, no-obligation land evaluation to assess the potential value of your property based on current market trends, location, and zoning.",
       },
       {
-        question: "What is the process for selling my land to Land Profits?",
+        question: "What is the process for selling my land to Land and Build?",
         answer:
           "We begin with a consultation, followed by a thorough assessment of your land’s value. If you agree to the offer, we handle all the paperwork and close the deal smoothly, ensuring maximum value for you.",
       },
