@@ -300,7 +300,7 @@ export default function HowWeWork() {
             </div>
           ))}
         </div>
-        <div className="mt-5 text-center">
+        <div className="get-started text-center">
           <Link href="/contact" className="ll-btn-primary">
             Get Started
           </Link>
