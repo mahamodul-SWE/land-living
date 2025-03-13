@@ -7,18 +7,12 @@ footer {
   padding-bottom: 0;
 
   .logo {
-    width: 30%;
+    width: 80px;
     color: white;
-    @include font($primaryFont, 18, semibold, normal, normal);
-    @include flex;
+
     gap: 8px;
   }
-  @include breakpoint(desktop1200) {
-    .logo {
-      flex: 1;
-      @include font($primaryFont, 16, semibold, normal, normal);
-    }
-  }
+ 
   .footer-title {
     color: #fff;
     text-transform: capitalize;

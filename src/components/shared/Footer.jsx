@@ -1,4 +1,4 @@
-import logo from "@/assets/images/land_Living_yellow_logo.png";
+import logo from "@/assets/images/favicon.ico";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +10,16 @@ export default function Footer() {
         <div className="row g-4 pb-4">
           <div className="col-lg-4">
             <div className="footer-left">
-              <Image src={logo} alt="Logo" className="logo" />
+              <div>
+                <Image src={logo} alt="Logo" className="logo" />
+                <p className="text-primary fw-bold"
+                  style={{
+                    fontSize: "12px",
+                    marginTop: "-8px",
+                  }}>
+                  LAND & BUILD
+                </p>
+              </div>
               <h3 className="footer-title mb-0">Unlock the Hidden Value of Your Land. </h3>
               <p className="footer-text">
                 we specialize in maximizing the potential of your land, ensuring you receive the best value for your property. Whether you're selling land, looking for development opportunities, or seeking planning approvals, our expert team is here to guide you through a seamless process.

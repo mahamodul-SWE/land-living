@@ -16,8 +16,8 @@ header {
   width: 100vw;
 
   .logo {
-    width: 100px;
-    height: 60px;
+    width: 60px;
+    // height: 60px;
     @include font($primaryFont, 18, semibold, normal, normal);
     @include flex;
     gap: 8px;
@@ -44,14 +44,6 @@ header {
   }
 }
  
-
-
-  @include breakpoint(desktop1200) {
-    .logo {
-      // flex: 1;
-      @include font($primaryFont, 25, semibold, normal, normal);
-    }
-  }
 
 }
 
