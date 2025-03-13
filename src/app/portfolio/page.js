@@ -67,7 +67,7 @@ export default function Portfolio() {
               sustainability, and community growth.
             </p>
             <div className="projects-grid">
-              {products.map((product, index) => (
+              {products.map((product) => (
                 <PortfolioItem key={product.title} product={product} />
               ))}
             </div>

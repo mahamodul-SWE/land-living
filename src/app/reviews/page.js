@@ -57,7 +57,7 @@ export default function Reviews() {
       <Breadcrumb title="Review" bgImage={review} />
       <main className="mt-5 mb-4">
         {reviews.map(({ name, image, review, title }, index) => (
-          <section key={{ index }} className="testimonial">
+          <section key={title} className="testimonial">
             <div className="">
               <div
                 className={`row ${index % 2 === 1 && "flex-lg-row-reverse"}`}

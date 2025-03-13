@@ -46,7 +46,7 @@ export default function HouseDevelopmentProcess() {
       <div className="container">
         <div className="steps-container">
           {developmentSteps.map((step, index) => (
-            <div key={index} className="step-card">
+            <div key={step.title} className="step-card">
               <h2 className="step-title">
                 <i className={step.iconClass + " icon"}></i> {step.title}
               </h2>

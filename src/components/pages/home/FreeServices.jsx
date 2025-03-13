@@ -43,7 +43,7 @@ export default function FreeServices() {
         <div className="features-container">
           {
             freeServices.map(({ service, description, icon }, index) => (
-              <div className="feature-item">
+              <div key={service} className="feature-item">
                 <div className="icon">
                   <i className={`bi ${icon}`}></i>
                 </div>

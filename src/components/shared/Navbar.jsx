@@ -63,8 +63,8 @@ export default function Navbar() {
               className="navbar-nav mx-auto flex-1 my-1 my-xl-0 navbar-nav-scroll"
             >
               {
-                navLinks.map((link, index) => (
-                  <li className="nav-item" key={index}>
+                navLinks.map((link) => (
+                  <li className="nav-item" key={link.href}>
                     <Link className={`nav-link ${pathname == link.href ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
                   </li>
                 ))

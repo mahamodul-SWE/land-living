@@ -13,11 +13,13 @@ import "swiper/css"
 
 const testimonials = [
   {
+    id: "review-1",
     name: "James R.",
     title: "Smooth & Profitable Experience",
     review: "Selling my land to Land Profits was a seamless experience. Their team handled everything with transparency and professionalism, ensuring I got the best value for my property. The entire process was stress-free, and I felt confident in every step. Highly recommend!",
   },
   {
+    id: "review-2",
     name: "Sarah L.",
     title: "Exceptional Service & Fair Pricing",
     review: "I was unsure about selling my land, but Land Profits guided me through the process with expert advice and market insights. They offered a fair price and took care of all the paperwork, making the transaction quick and hassle-free. A truly outstanding team!",
