@@ -22,7 +22,6 @@ const sliders = [
       priority
       style={{
         objectFit: "cover",
-        objectPosition: "20px 50%"
       }}
     />,
     title: (

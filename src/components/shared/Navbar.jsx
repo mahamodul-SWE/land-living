@@ -3,6 +3,7 @@ import logo from "@/assets/images/land_Living_yellow_logo.png"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { useRef } from "react"
 const navLinks = [
   {
     title: "Home",
@@ -40,6 +41,12 @@ const navLinks = [
 ];
 export default function Navbar() {
   const pathname = usePathname()
+  const toggleButton = useRef(null)
+
+  const handleClick = () => {
+    window.innerWidth < 1200 && toggleButton.current.click()
+  }
+
   return (
     <header>
       <nav className="navbar navbar-expand-xl bg-body-tertiary py-0">
@@ -55,6 +62,7 @@ export default function Navbar() {
             aria-controls="navbarScroll"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            ref={toggleButton}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -65,7 +73,7 @@ export default function Navbar() {
               {
                 navLinks.map((link) => (
                   <li className="nav-item" key={link.href}>
-                    <Link className={`nav-link ${pathname == link.href ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
+                    <Link onClick={handleClick} className={`nav-link ${pathname == link.href ? "active" : null}`} aria-current="page" href={link.href}>{link.title}</Link>
                   </li>
                 ))
               }
