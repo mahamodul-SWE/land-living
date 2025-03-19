@@ -1,6 +1,5 @@
 import ContactForm from "@/components/pages/contact/ContactForm";
 import Breadcrumb from "@/components/shared/Breadcrumb";
-import Link from "next/link";
 
 export const metadata = {
   title: "Contact Us || Land & Build",
@@ -30,7 +29,7 @@ export default function Contact() {
                       <i className="bi bi-geo-alt"></i>
                     </span>
                     <h4 className="title">Our main office</h4>
-                    <address className="text text-start">
+                    <address className="text text-center">
                       Hatch Gate Inn,The Hatch, Burghfield, Reading, Berkshire,
                       RG30 3TH.
                     </address>
@@ -41,9 +40,9 @@ export default function Contact() {
                     </span>
                     <h4 className="title">Email Us</h4>
                     <span className="text text-start">
-                      <Link href="mailto:info@landandbuild.uk">
+                      <a href="mailto:info@landandbuild.uk">
                         info@landandbuild.uk
-                      </Link>
+                      </a>
                     </span>
                   </div>
                   <div className="contact-item">
@@ -53,12 +52,10 @@ export default function Contact() {
                     <h4 className="title">Call us</h4>
                     <div className="d-flex flex-wrap justify-content-center  gap-3">
                       <span className="text text-start">
-                        Phone:{" "}
-                        <Link href="tel:+447738940597">+447738940597</Link>
+                        Phone: <a href="tel:+447738940597">+447738940597</a>
                       </span>
                       <span className="text text-start">
-                        Telephone:{" "}
-                        <Link href="tel:+441183483304">+441183483304</Link>
+                        Telephone: <a href="tel:+441183483304">+441183483304</a>
                       </span>
                     </div>
                   </div>

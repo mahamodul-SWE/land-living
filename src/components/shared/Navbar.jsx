@@ -97,5 +97,5 @@ export default function Navbar() {
 }
 
 const CallNow = () => (
-  <Link href="call:+447738940597" className="ll-btn-primary" >Call now</Link>
+  <a href="tel:+447738940597" className="ll-btn-primary" >Call now</a>
 )
