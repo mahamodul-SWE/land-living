@@ -59,7 +59,9 @@ export default function Portfolio() {
       <main>
         <div className="container">
           <section className="projects-section">
-            <h2>Our Land and Development Success Stories</h2>
+            <h2 className="section-title">
+              Our Land and Development Success Stories
+            </h2>
             <p className="sec-des">
               Discover our portfolio showcasing - successful land acquisitions
               and transformative developments. We bring visionary projects to
