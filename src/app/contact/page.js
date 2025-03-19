@@ -14,11 +14,11 @@ export default function Contact() {
       <Breadcrumb title="Contact Us" />
       <main>
         <div className="container contact-wrapper">
-          <div className="row gap-2 flex-column-reverse flex-lg-row flex-lg-nowrap">
-            <div className="col-lg-6">
+          <div className="row gap-5 flex-column-reverse flex-lg-row flex-lg-nowrap">
+            <div className="col">
               <ContactForm />
             </div>
-            <div className="col-lg-6">
+            <div className="col">
               <div className="contact-info">
                 <h3 className="section-title">Get in touch</h3>
                 <p className="contact-info-text">
@@ -51,10 +51,10 @@ export default function Contact() {
                       <i className="bi bi-telephone-outbound"></i>
                     </span>
                     <h4 className="title">Call us</h4>
-                    <div className="d-flex gap-3">
+                    <div className="d-flex flex-wrap justify-content-center  gap-3">
                       <span className="text text-start">
                         Phone:{" "}
-                        <Link href="call:+447738940597">+447738940597</Link>
+                        <Link href="tel:+447738940597">+447738940597</Link>
                       </span>
                       <span className="text text-start">
                         Telephone:{" "}

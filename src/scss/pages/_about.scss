@@ -18,12 +18,12 @@
 .info-box {
   background: #1a1a2e;
   color: white;
-  padding: 30px;
+  padding: 30px 16px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   @include breakpoint(tab992) {
     border-radius: 10px;
-    padding-left: 60px;
+    padding-left: 40px;
   }
   h5 {
     font-weight: 700;
@@ -52,10 +52,10 @@
 .image-section {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  transform: translateX(40px);
   overflow: hidden;
-  padding: 0;
+  // padding: 0;
   @include breakpoint(tab992) {
+    transform: translateX(40px);
     border-radius: 10px;
   }
 }

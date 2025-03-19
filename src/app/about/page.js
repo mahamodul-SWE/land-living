@@ -21,10 +21,10 @@ export default function About() {
                 <p>
                   At Land & Build, we specialize in unlocking the full potential
                   of your land, ensuring you get the best value for{" "}
-                  <strong>"Your Property"</strong>. Whether you’re looking to
-                  sell, explore development opportunities, or secure planning
-                  permissions, our expert team provides a smooth and efficient
-                  process every step of the way. we expertised in land
+                  <strong>&quot;Your Property&quot;</strong>. Whether you’re
+                  looking to sell, explore development opportunities, or secure
+                  planning permissions, our expert team provides a smooth and
+                  efficient process every step of the way. we expertised in land
                   acquisition, property development, and creating sustainable
                   living spaces. Our team of experts combines years of industry
                   experience, in-depth market knowledge, and a passion for
@@ -110,52 +110,57 @@ export default function About() {
             <h3 className="section-title">Comprehensive Services We Offer</h3>
           </div>
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 image-section">
-                <Image src={review} alt="Real Estate" className="" />
+            <div className="row flex-column flex-lg-row  align-items-center">
+              <div className="col ">
+                <div className="image-section">
+                  <Image src={review} alt="Real Estate" className="" />
+                </div>
               </div>
-              <div className="col-lg-6 info-box">
-                <div className="info-item">
-                  <i className="bi bi-pin-map-fill icon"></i>
-                  <div>
-                    <h5>Land Buy and Sale</h5>
-                    <p>
-                      Assisting landowners in selling their land at the best
-                      possible value through a smooth, transparent, and
-                      hassle-free process. If you’re looking to buy land for
-                      your dream home, we ensure seamless transactions with
-                      expert guidance at every step.
-                    </p>
+              <div className="col ">
+                <div className="info-box">
+                  <div className="info-item">
+                    <i className="bi bi-pin-map-fill icon"></i>
+                    <div>
+                      <h5>Land Buy and Sale</h5>
+                      <p>
+                        Assisting landowners in selling their land at the best
+                        possible value through a smooth, transparent, and
+                        hassle-free process. If you’re looking to buy land for
+                        your dream home, we ensure seamless transactions with
+                        expert guidance at every step.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="info-item">
-                  <i className="bi bi-buildings icon"></i>
-                  <div>
-                    <h5>Property Development</h5>
-                    <p>
-                      Taking your land and transforming it into high-quality,
-                      sustainable developments.
-                    </p>
+                  <div className="info-item">
+                    <i className="bi bi-buildings icon"></i>
+                    <div>
+                      <h5>Property Development</h5>
+                      <p>
+                        Taking your land and transforming it into high-quality,
+                        sustainable developments.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="info-item">
-                  <i className="bi bi-map icon"></i>
-                  <div>
-                    <h5>Planning & Approvals</h5>
-                    <p>
-                      Assisting with obtaining planning permission and necessary
-                      approvals, ensuring the project progresses smoothly.
-                    </p>
+                  <div className="info-item">
+                    <i className="bi bi-map icon"></i>
+                    <div>
+                      <h5>Planning & Approvals</h5>
+                      <p>
+                        Assisting with obtaining planning permission and
+                        necessary approvals, ensuring the project progresses
+                        smoothly.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="info-item">
-                  <i className="bi bi-microsoft-teams icon"></i>
-                  <div>
-                    <h5>Construction Management</h5>
-                    <p>
-                      Overseeing the entire construction process, ensuring
-                      quality, compliance, and timely completion.
-                    </p>
+                  <div className="info-item">
+                    <i className="bi bi-microsoft-teams icon"></i>
+                    <div>
+                      <h5>Construction Management</h5>
+                      <p>
+                        Overseeing the entire construction process, ensuring
+                        quality, compliance, and timely completion.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

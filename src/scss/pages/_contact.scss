@@ -2,9 +2,13 @@
 @use "../partials" as *;
 
 .contact-wrapper {
-  padding: 56px 0px;
+  --padding-sm: 56px;
+  --padding-lg: 100px;
+  padding-top: var(--padding-sm);
+  padding-bottom: var(--padding-sm);
   @include breakpoint(desktop1200) {
-    padding: 100px 0px;
+    padding-top: var(--padding-lg);
+    padding-bottom: var(--padding-lg);
   }
   .contact-form {
     background-color: #ddd;

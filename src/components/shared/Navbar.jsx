@@ -44,7 +44,11 @@ export default function Navbar() {
   const toggleButton = useRef(null)
 
   const handleClick = () => {
-    window.innerWidth < 1200 && toggleButton.current.click()
+    let timeout;
+    timeout = setTimeout(() => {
+      window.innerWidth < 1200 && toggleButton.current.click()
+      clearTimeout(timeout)
+    }, 500)
   }
 
   return (
@@ -54,6 +58,9 @@ export default function Navbar() {
           <Link className="navbar-brand" href="/">
             <Image src={logo} alt="Logo" className="logo" />
           </Link>
+          <div className="d-flex d-xl-none" role="search">
+            <CallNow />
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -66,6 +73,7 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
           <div className="collapse navbar-collapse pb-3 p-xl-0" id="navbarScroll">
             <ul
               className="navbar-nav mx-auto flex-1 my-1 my-xl-0 navbar-nav-scroll"
@@ -78,8 +86,8 @@ export default function Navbar() {
                 ))
               }
             </ul>
-            <div className="d-flex" role="search">
-              <Link href="tel:01625366735" className="ll-btn-primary" >Call now</Link>
+            <div className="d-none d-xl-flex" role="search">
+              <CallNow />
             </div>
           </div>
         </div>
@@ -87,3 +95,7 @@ export default function Navbar() {
     </header>
   )
 }
+
+const CallNow = () => (
+  <Link href="call:+447738940597" className="ll-btn-primary" >Call now</Link>
+)
